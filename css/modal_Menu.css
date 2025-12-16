@@ -1,0 +1,97 @@
+/* STYLES modal */
+.modal-window-menu {
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.903);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s;
+    &:target {
+      visibility: visible;
+      opacity: 1;
+      pointer-events: auto;
+    }
+    & > div {
+      height: 900px;
+      width: 400px;
+      position: absolute;
+      top: 50%;
+      left: 89%;
+      transform: translate(-50%, -50%);
+      padding: 2em;
+      background: rgb(2, 0, 42);
+    }
+}
+    header {
+      color: #000000;
+      font-weight: bold;
+    }
+    h1 {
+        color: #000000;
+      text-align: center;
+      align-items: center;
+      font-size: 250%;
+    }
+    h3 {
+        color: #000000;
+      text-align: center;
+      align-items: center;
+      font-size: 150%;
+      margin-top: 10px;
+    }
+    h6 {
+        color: #000000;
+        font-size: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+    .datos_menu_tarjeta {
+        color: #000000;
+    font-size: 120%;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    }
+
+  
+  .modal-close {
+    color: #000000;
+    line-height: 50px;
+    font-size: 80%;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: 70px;
+    text-decoration: none;
+    &:hover {
+      color: rgb(210, 3, 3);
+      }
+  }
+  
+  
+
+  /* Demo Styles */
+
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .containerPerfil {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .modal-window div:not(:last-of-type) {
+    margin-bottom: 15px;
+  }
+
+  

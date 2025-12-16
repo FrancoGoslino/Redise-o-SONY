@@ -1,0 +1,100 @@
+/* Estilos generales */
+html{
+    background-color: rgb(255, 255, 255);
+}
+header {
+    background-color: rgb(2, 0, 42);
+}
+
+body{
+    background-image: url(fondo.png);
+}
+
+.linea{
+    border-color: rgba(225, 225, 225, 0.559);
+    border-style:solid;
+    border-right: 10px;
+}
+footer{
+    background-color: rgb(2, 0, 42);
+    max-width: 100%;
+    margin-right: 0%;
+    p{
+        color: aliceblue;
+        margin-top: 20px;
+        padding: 10px;
+        padding-inline: 40px;
+    }
+    
+}
+#parrafo{
+    color: aliceblue;
+    text-align: center;
+}
+
+/* Estilos para h2 */
+h2 {
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 30px auto 20px;
+    text-align: center;
+}
+
+/* Estilos para .card */
+.banner{
+width: 100%;
+height: 920px;
+}
+
+.notificacion_logueo_exitoso{
+    height: 0px;
+    margin-top: 0px;
+    }
+
+.imgbanner{
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width: 1920px;
+    min-width: 500px;
+    }
+
+
+#body-admin{
+    background-color: rgb(217, 123, 0);
+    display: inline;
+}
+
+#botones-admin-editar{
+    color: antiquewhite;
+    background-color:rgb(240, 177, 41);
+    border-color: transparent;
+}
+#botones-admin-eliminar{
+    color: antiquewhite;
+    background-color:rgb(239, 30, 30);
+    border-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+

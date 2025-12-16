@@ -1,0 +1,59 @@
+
+<!-- ESTILOS TARJETAS PRODUCTOS DESTACADOS --
+  
+  .card-group{
+    background-color: #79eb8a;
+   
+    padding: 3em;
+    padding-left: 3em;
+    margin-bottom: 20px;
+ 
+  }
+
+  .card-body{
+    background-color: rgb(255, 255, 255);
+    h5{
+      text-align: center;
+    }
+    p{
+      text-align: justify;
+    }
+    a{
+      margin-left: 90%;
+    }
+  }
+
+
+
+  <!-- ESTILOS TARJETAS PRODUCTOS DESTACADOS --
+  #contenedor_cards{
+    padding: 20px;
+    
+  }
+
+  #contenedor_destacados{
+   
+    padding: 10px;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  #container_hover{
+    box-shadow: 15px 5px;
+    align-items: center;
+
+    &:hover,
+    &:focus {
+      transform: scale3d(1.050, 1.050, 1);
+  
+      &::after {
+        opacity: 1;
+      }
+    }
+  }
+  
+  #imagen_tarjetas{
+    height: 200px;
+    width: 200px;
+  }
+

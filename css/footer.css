@@ -1,0 +1,43 @@
+
+
+
+
+
+  
+  <!-- container de tarjetas -->
+  <div id="contenedor_tarjetas" class="w3-container">
+    <div id="div_contenedor_tarjetas">
+      <!--tarjeta -->
+      <div id="div_tarjetas" class="w3-card-4">
+        <img id="imagen_tarjetas" src="img\auriculares.png" alt="Alps" style="width:100%">
+        <div class="w3-container w3-center">
+        
+        </div>
+      </div>
+
+      <!--tarjeta -->
+      <div id="div_tarjetas" class="w3-card-4">
+        <img id="imagen_tarjetas" src="img\camara.png" alt="Alps" style="width:100%">
+        <div class="w3-container w3-center">
+       
+        </div>
+      </div>
+
+      <!--tarjeta -->
+      <div id="div_tarjetas" class="w3-card-4">
+        <img id="imagen_tarjetas" src="img\televisor.png" alt="Alps" style="width:100%">
+        <div class="w3-container w3-center">
+          
+        </div>
+      </div>
+
+      <!--tarjeta -->
+      <div id="div_tarjetas" class="w3-card-4">
+          <img id="imagen_tarjetas" src="img\joystick.png" alt="Alps" style="width:100%">
+          <div class="w3-container w3-center">
+           
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- cierro CONTAINER de tarjetas --> </div>
