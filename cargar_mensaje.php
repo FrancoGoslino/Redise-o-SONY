@@ -2,7 +2,8 @@
 global $conexion;
 require_once "iniciar_sesion.php";
 require_once "conexion.php";
-require_once "../seguridad.php";
+require_once(__DIR__ . '/seguridad.php');
+
 $nombre = htmlspecialchars(trim(mysqli_real_escape_string($conexion, $_POST["nombre"])));
 $mail = htmlspecialchars(trim(mysqli_real_escape_string($conexion, $_POST["mail"])));
 $titulo_mensaje = htmlspecialchars(trim(mysqli_real_escape_string($conexion, $_POST["titulo_mensaje"])));
