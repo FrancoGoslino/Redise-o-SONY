@@ -1,6 +1,9 @@
 <?php
 session_start();
-include_once "conexion.php";
+require_once "iniciar_sesion.php";
+require_once "conexion.php";
+require_once "seguridad.php";
+
 // Verificar si el usuario está autenticado
 if (isset($_SESSION['id_usuario'])) {
     // Cargar los datos del usuario desde la sesión
@@ -31,6 +34,7 @@ require_once "phpControlador/permisos_vistas.php";
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
   <!-- Hojas de css -->
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
   <link rel="stylesheet" href="css/estilos.css" />
   <link rel="stylesheet" href="css/modal.css" />
   <link rel="stylesheet" href="css/modal_Menu.css" />
@@ -216,100 +220,167 @@ require_once "phpControlador/permisos_vistas.php";
       </div>
     </div>
   </div>
-  <!-- PRODUCTOS DESTACADOS-->
-  <div class="linea">
-    <div>
-      <h1> PRODUCTOS DESTACADOS</h1>
+  <!-- PRODUCTOS DESTACADOS -->
+<div class="linea">
+  <div>
+    <h1>PRODUCTOS DESTACADOS</h1>
+  </div>
+  <div id="contenedor_destacados" class="container">
+    <div id="productos-container" class="row row-cols-1 row-cols-sm-2 row-cols-md-5 g-5">
+      <!-- Los productos se cargarán aquí dinámicamente -->
+      <div class="col-12 text-center">
+        <div class="spinner-border text-primary" role="status">
+          <span class="visually-hidden">Cargando productos...</span>
+        </div>
+      </div>
     </div>
-    <div id=contenedor_destacados class="container">
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5 g-5">
-        <div class="col">
-          <div class="card shadow-sm">
-            <a href="audio.php"><img src="img\productos\auriculares_vincha.png" class="bd-placeholder-img card-img-top"
-                alt=" "></img></a>
-            <div class="card-body">
-              <h1> JB - 2 Bluetooth</h1>
-              <p class="card-text">Auriculares resistentes a prueba de agua y polvo, con el mejor sonido y aislante del mercado.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">$49.999</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary"><img src="img\carrito.png" alt="50" height=30px></button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!---->
-        <div class="col">
-          <div class="card shadow-sm">
-            <a href="inicio.php"><img src="img\productos\consola.png" class="bd-placeholder-img card-img-top"
-                alt=" "></img></a>
-                <div class="card-body">
-              <h1> PS5 </h1>
-              <p class="card-text">La Play Station 5 es perfecta para aquellos que quieren divertirse en familia o a solas. Este dispositivo promete la mejor calidad y una experiencia única.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">$1.499.999</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary"><img src="img\carrito.png" alt="50" height=30px></button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!---->
-        <div class="col">
-          <div class="card shadow-sm">
-            <a href="inicio.php"><img src="img\productos\parlante.png" class="bd-placeholder-img card-img-top"
-                alt=" "></img></a>
-                <div class="card-body">
-              <h1> SRS - B30</h1>
-              <p class="card-text">El parlante mas potente del mercado, otorga la mejor calidad de sonido. Fácil de trasportar y con luces para dar ambiente.	</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">$979.999</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary"><img src="img\carrito.png" alt="50" height=30px></button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!---->
-        <div class="col">
-          <div class="card shadow-sm">
-            <a href="inicio.php"><img src="img\productos\juego_hogwarts.png" class="bd-placeholder-img card-img-top"
-                alt=" "></img></a>
-                <div class="card-body">
-              <h1> Howarts Legacy</h1>
-              <p class="card-text">Sumergete en el mundo de Harry potter y conviertete en el protagonista de tu propia historia dentro de este magico mundo.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">$39.999</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary"><img src="img\carrito.png" alt="50" height=30px></button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!---->
-        <div class="col">
-          <div class="card shadow-sm">
-            <a href="inicio.php"><img src="img\productos\camara_productos.png" class="bd-placeholder-img card-img-top"
-                alt=" "></img></a>
-                <div class="card-body">
-              <h1> ZV - E10</h1>
-              <p class="card-text">Captura los mejores momentos con la mejor calidad disponible. Esta cámara ofrece lo mejor en calidad al alcance de todos.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">$349.999</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary"><img src="img\carrito.png" alt="50" height=30px></button>
-                </div>
+  </div>
+</div>
+
+<!-- Script para cargar productos dinámicamente -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Función para formatear el precio
+  function formatearPrecio(precio) {
+    return '$' + parseFloat(precio).toLocaleString('es-AR');
+  }
+
+  // Función para crear una tarjeta de producto
+  function crearTarjetaProducto(producto) {
+    return `
+      <div class="col">
+        <div class="card shadow-sm h-100">
+          <a href="detalle_producto.php?id=${producto.id}">
+            <img src="${producto.imagen}" class="bd-placeholder-img card-img-top" alt="${producto.nombre}">
+          </a>
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">${producto.nombre}</h5>
+            <p class="card-text flex-grow-1">${producto.descripcion}</p>
+            <div class="d-flex justify-content-between align-items-center mt-auto">
+              <div class="btn-group w-100">
+                <button type="button" class="btn btn-sm btn-outline-secondary flex-grow-1 text-start">
+                  ${formatearPrecio(producto.precio)}
+                </button>
+                <button type="button" class="btn btn-sm btn-outline-secondary" onclick="agregarAlCarrito(${producto.id})">
+                  <img src="img/carrito.png" alt="Agregar al carrito" height="20">
+                </button>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
+    `;
+  }
+
+  // Función para cargar los productos
+  function cargarProductos() {
+    fetch('phpControlador/obtener_productos.php')
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Error al cargar los productos');
+        }
+        return response.json();
+      })
+      .then(data => {
+        const container = document.getElementById('productos-container');
+        if (data.success && data.data.length > 0) {
+          container.innerHTML = data.data.map(crearTarjetaProducto).join('');
+        } else {
+          container.innerHTML = `
+            <div class="col-12 text-center">
+              <div class="alert alert-warning w-100">
+                No se encontraron productos disponibles.
+                ${data.error ? '<br>' + data.error : ''}
+              </div>
+            </div>`;
+        }
+      })
+      .catch(error => {
+        console.error('Error:', error);
+        document.getElementById('productos-container').innerHTML = `
+          <div class="col-12 text-center">
+            <div class="alert alert-danger">
+              Error al cargar los productos. Por favor, intente nuevamente más tarde.
+              <br>${error.message}
+            </div>
+          </div>`;
+      });
+  }
+
+  // Función para agregar al carrito (puedes implementar esta función según tus necesidades)
+ // Reemplaza la función actual con esta versión mejorada
+window.agregarAlCarrito = async function(idProducto) {
+    try {
+        const response = await fetch('phpControlador/manejar_carrito.php', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                id_producto: idProducto,
+                cantidad: 1
+            })
+        });
+        const data = await response.json();
+        if (!response.ok) {
+            throw new Error(data.error || 'Error al agregar al carrito');
+        }
+        // Actualizar el contador del carrito en la interfaz
+        const carritoContador = document.getElementById('carrito-contador');
+        if (carritoContador) {
+            carritoContador.textContent = data.carrito.total_items;
+            carritoContador.classList.remove('d-none');
+        }
+        // Mostrar notificación
+        mostrarNotificacion('success', `"${data.producto.nombre}" agregado al carrito`);
+    } catch (error) {
+        console.error('Error:', error);
+        mostrarNotificacion('danger', error.message || 'Error al agregar al carrito');
+    }
+};
+// Función auxiliar para mostrar notificaciones
+function mostrarNotificacion(tipo, mensaje) {
+    const toastContainer = document.getElementById('toast-container') || (() => {
+        const div = document.createElement('div');
+        div.id = 'toast-container';
+        div.className = 'position-fixed bottom-0 end-0 p-3';
+        div.style.zIndex = '11';
+        document.body.appendChild(div);
+        return div;
+    })();
+    const toast = document.createElement('div');
+    toast.className = `toast align-items-center text-white bg-${tipo} border-0`;
+    toast.role = 'alert';
+    toast.setAttribute('aria-live', 'assertive');
+    toast.setAttribute('aria-atomic', 'true');
+    
+    toast.innerHTML = `
+        <div class="d-flex">
+            <div class="toast-body">
+                ${mensaje}
+            </div>
+            <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+    `;
+    toastContainer.appendChild(toast);
+    
+    // Inicializar el toast de Bootstrap
+    const bsToast = new bootstrap.Toast(toast, {
+        autohide: true,
+        delay: 3000
+    });
+    
+    // Eliminar el toast del DOM después de que se oculte
+    toast.addEventListener('hidden.bs.toast', () => {
+        toast.remove();
+    });
+    
+    bsToast.show();
+}
+
+  cargarProductos();
+});
+</script>
  
 <!-- FOOTER -->
 <footer>
@@ -330,7 +401,7 @@ require_once "phpControlador/permisos_vistas.php";
           "id" => "nombre",
           "name" => "nombre",
           "placeholder" => "Nombre",
-          "value" => $_SESSION["nombre_usuario"],
+          "value" => isset($_SESSION['nombre_usuario']) ? $_SESSION['nombre_usuario'] : '',
           "required" => true
         ],
         "mail" => [

@@ -1,8 +1,14 @@
 <!DOCTYPE html>
 <?php
-session_start();
-require "conexion.php";
-require "phpControlador/permisos_vistas.php";
+if (empty($_SESSION['csrf_token'])) {
+    $_SESSION['csrf_token'] = bin2hex(random_bytes(32));
+}
+// Al procesar formularios POST
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    if (!isset($_POST['csrf_token']) || $_POST['csrf_token'] !== $_SESSION['csrf_token']) {
+        die('Error de seguridad: Token CSRF inválido');
+    }
+}
 ?>
 <html lang="es">
 
@@ -234,6 +240,7 @@ require "phpControlador/permisos_vistas.php";
           <tr>
             <th scope="col">ID</th>
             <th scope="col">Nombre</th>
+            <th scope="col">Imagen</th>
             <th scope="col">Descripcion</th>
             <th scope="col">Precio</th>
             <th scope="col">Stock</th>
@@ -254,6 +261,7 @@ require "phpControlador/permisos_vistas.php";
             <tr>
               <td><?php echo $datos["id_producto"]; ?></td>
               <td><?php echo $datos["nombre"]; ?></td>
+              <td><?php echo $datos["imagen"]; ?></td>
               <td><?php echo $datos["descripcion"]; ?></td>
               <td><?php echo "$", $datos["precio"]; ?></td>
               <td><?php echo $datos["stock"]; ?></td>

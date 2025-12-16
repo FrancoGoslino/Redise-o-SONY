@@ -1,7 +1,9 @@
 global$conexion; <!DOCTYPE html>
 <?php
 session_start();
-require "conexion.php";
+require_once "iniciar_sesion.php";
+require_once "conexion.php";
+require_once "../seguridad.php";
 require "phpControlador/permisos_vistas.php";
 ?>
 <html lang="es">

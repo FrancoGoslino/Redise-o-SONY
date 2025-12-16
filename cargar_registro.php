@@ -1,7 +1,9 @@
 <?php
 global $conexion;
 
+require_once "iniciar_sesion.php";
 require_once "conexion.php";
+require_once "../seguridad.php";
 
 $nombre = htmlspecialchars(trim(mysqli_real_escape_string($conexion, $_POST["nombre"])));
 $apellido = htmlspecialchars(trim(mysqli_real_escape_string($conexion, $_POST["apellido"])));
