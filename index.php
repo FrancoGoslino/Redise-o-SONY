@@ -61,6 +61,42 @@ require_once "phpControlador/permisos_vistas.php";
     .footer-form .form-row input {
       flex: 1;
     }
+    <style>
+    .disponible {
+    background-color: #28a745 !important;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    }
+      .agotado {
+          background-color: #dc3545 !important;
+          color: white;
+          font-weight: bold;
+          padding: 5px 10px;
+          border-radius: 4px;
+          font-size: 0.8rem;
+          text-transform: uppercase;
+          letter-spacing: 0.5px;
+      }
+          
+          .card {
+              transition: transform 0.2s;
+          }
+          .card:hover {
+              transform: translateY(-5px);
+              box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+          }
+          .card-img-top {
+              transition: opacity 0.3s;
+          }
+          .card:hover .card-img-top {
+              opacity: 0.9;
+          }
+</style>
   </style>
 </head>
 
@@ -240,75 +276,107 @@ require_once "phpControlador/permisos_vistas.php";
 <!-- Script para cargar productos dinámicamente -->
 <script>
 document.addEventListener('DOMContentLoaded', function() {
+  
   // Función para formatear el precio
   function formatearPrecio(precio) {
     return '$' + parseFloat(precio).toLocaleString('es-AR');
   }
 
   // Función para crear una tarjeta de producto
-  function crearTarjetaProducto(producto) {
+function crearTarjetaProducto(producto) {
+    console.log("Datos del producto:", producto);
+    
+    // Asegurar que la ruta de la imagen sea correcta
+    let imagenUrl = producto.imagen || '/proyectoNuevo/img/productos/default.jpg';
+    
+    // Agregar barra inicial si es necesario
+    if (!imagenUrl.startsWith('/') && !imagenUrl.startsWith('http')) {
+        imagenUrl = '/' + imagenUrl;
+    }
+    
+    // Agregar timestamp para evitar caché
+    imagenUrl += (imagenUrl.includes('?') ? '&' : '?') + 't=' + new Date().getTime();
+    
+    // Todos los productos están disponibles (se eliminó la lógica de agotado)
+    
+    // Crear el HTML de la tarjeta
     return `
-      <div class="col">
+    <div class="col">
         <div class="card shadow-sm h-100">
-          <a href="detalle_producto.php?id=${producto.id}">
-            <img src="${producto.imagen}" class="bd-placeholder-img card-img-top" alt="${producto.nombre}">
-          </a>
-          <div class="card-body d-flex flex-column">
-            <h5 class="card-title">${producto.nombre}</h5>
-            <p class="card-text flex-grow-1">${producto.descripcion}</p>
-            <div class="d-flex justify-content-between align-items-center mt-auto">
-              <div class="btn-group w-100">
-                <button type="button" class="btn btn-sm btn-outline-secondary flex-grow-1 text-start">
-                  ${formatearPrecio(producto.precio)}
-                </button>
-                <button type="button" class="btn btn-sm btn-outline-secondary" onclick="agregarAlCarrito(${producto.id})">
-                  <img src="img/carrito.png" alt="Agregar al carrito" height="20">
-                </button>
-              </div>
+            <div class="position-relative">
+                <a href="detalle_producto.php?id=${producto.id}">
+                    <img src="${imagenUrl}" 
+                         class="bd-placeholder-img card-img-top" 
+                         alt="${producto.nombre}" 
+                         onerror="this.onerror=null; this.src='/proyectoNuevo/img/productos/default.jpg'"
+                         style="height: 200px; object-fit: contain; background-color: #f8f9fa; padding: 10px;">
+                </a>
             </div>
-          </div>
+            <div class="card-body d-flex flex-column">
+                <h5 class="card-title">${producto.nombre}</h5>
+                <p class="card-text flex-grow-1">${producto.descripcion || ''}</p>
+                <div class="d-flex justify-content-between align-items-center mt-auto">
+                    <div class="btn-group w-100">
+                        <button type="button" class="btn btn-sm btn-outline-secondary flex-grow-1 text-start">
+                            ${formatearPrecio(producto.precio || 0)}
+                        </button>
+                        <button type="button" 
+                                class="btn btn-sm btn-outline-primary" 
+                                onclick="agregarAlCarrito(${producto.id})">
+                            <img src="/proyectoNuevo/img/carrito.png" alt="Agregar al carrito" height="20">
+                        </button>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    `;
-  }
+    </div>`;
+}
 
   // Función para cargar los productos
-  function cargarProductos() {
+function cargarProductos() {
+    console.log("Iniciando carga de productos...");
+    
     fetch('phpControlador/obtener_productos.php')
-      .then(response => {
-        if (!response.ok) {
-          throw new Error('Error al cargar los productos');
-        }
-        return response.json();
-      })
-      .then(data => {
-        const container = document.getElementById('productos-container');
-        if (data.success && data.data.length > 0) {
-          container.innerHTML = data.data.map(crearTarjetaProducto).join('');
-        } else {
-          container.innerHTML = `
-            <div class="col-12 text-center">
-              <div class="alert alert-warning w-100">
-                No se encontraron productos disponibles.
-                ${data.error ? '<br>' + data.error : ''}
-              </div>
-            </div>`;
-        }
-      })
-      .catch(error => {
-        console.error('Error:', error);
-        document.getElementById('productos-container').innerHTML = `
-          <div class="col-12 text-center">
-            <div class="alert alert-danger">
-              Error al cargar los productos. Por favor, intente nuevamente más tarde.
-              <br>${error.message}
-            </div>
-          </div>`;
-      });
-  }
+        .then(response => {
+            console.log("Respuesta del servidor recibida:", response);
+            if (!response.ok) {
+                throw new Error('Error en la respuesta del servidor: ' + response.statusText);
+            }
+            return response.json();
+        })
+        .then(data => {
+            console.log("Datos recibidos del servidor (raw):", data);
+            
+            if (!data || !data.success) {
+                throw new Error(data.error || 'Error al cargar los productos');
+            }
+            
+            // Debug: Mostrar el primer producto para verificar la estructura
+            if (data.data && data.data.length > 0) {
+                console.log("Primer producto recibido:", data.data[0]);
+                console.log("Tipo de stock:", typeof data.data[0].stock, "Valor:", data.data[0].stock);
+            }
+            
+            const container = document.getElementById('productos-container');
+            if (data.data && data.data.length > 0) {
+                container.innerHTML = data.data.map(crearTarjetaProducto).join('');
+            } else {
+                container.innerHTML = '<div class="col-12 text-center"><p>No se encontraron productos.</p></div>';
+            }
+        })
+        .catch(error => {
+            console.error('Error al cargar productos:', error);
+            const container = document.getElementById('productos-container');
+            container.innerHTML = `
+                <div class="col-12 text-center">
+                    <div class="alert alert-danger">
+                        Error al cargar los productos: ${error.message}
+                    </div>
+                </div>`;
+        });
+}
 
   // Función para agregar al carrito (puedes implementar esta función según tus necesidades)
- // Reemplaza la función actual con esta versión mejorada
 window.agregarAlCarrito = async function(idProducto) {
     try {
         const response = await fetch('phpControlador/manejar_carrito.php', {
@@ -338,6 +406,7 @@ window.agregarAlCarrito = async function(idProducto) {
         mostrarNotificacion('danger', error.message || 'Error al agregar al carrito');
     }
 };
+
 // Función auxiliar para mostrar notificaciones
 function mostrarNotificacion(tipo, mensaje) {
     const toastContainer = document.getElementById('toast-container') || (() => {

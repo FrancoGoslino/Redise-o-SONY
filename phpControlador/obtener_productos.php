@@ -26,6 +26,9 @@ function sendJsonResponse($data, $statusCode = 200) {
     http_response_code($statusCode);
     header('Content-Type: application/json; charset=utf-8');
     
+    // Log the data for debugging
+    error_log("Sending JSON response: " . print_r($data, true));
+    
     // Output JSON
     echo json_encode($data, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
     exit;
@@ -44,26 +47,31 @@ try {
     }
 
     // Query to get products
-    $query = "SELECT * FROM productos";
-    $result = $conexion->query($query);
-    
-    if ($result === false) {
-        throw new Exception('Error en la consulta: ' . $conexion->error);
-    }
-
-    $productos = [];
-    while ($row = $result->fetch_assoc()) {
-        $imagen = !empty($row['imagen']) ? $row['imagen'] : 'img/productos/default.jpg';
-        if (!file_exists($imagen) && $imagen !== 'img/productos/default.jpg') {
-            $imagen = 'img/productos/default.jpg';
+    $query = "SELECT id_producto, nombre, descripcion, precio, imagen, stock FROM productos";
+$result = $conexion->query($query);
+if ($result === false) {
+    throw new Exception('Error en la consulta: ' . $conexion->error);
+}
+$productos = [];
+while ($row = $result->fetch_assoc()) {
+        $imagenPath = ltrim($row['imagen'] ?? '', '/');
+        if (!empty($imagenPath)) {
+            // Asegurarse de que la ruta no comience con 'proyectoNuevo' para evitar duplicados
+            $imagenPath = ltrim(str_replace('proyectoNuevo/', '', $imagenPath), '/');
+            $imagen = '/proyectoNuevo/' . $imagenPath;
+        } else {
+            $imagen = '/proyectoNuevo/img/productos/default.jpg';
         }
+        
+        error_log("Producto ID: {$row['id_producto']} - Ruta de imagen: " . $imagen);
         
         $productos[] = [
             'id' => (int)$row['id_producto'],
             'nombre' => htmlspecialchars($row['nombre'], ENT_QUOTES, 'UTF-8'),
             'descripcion' => htmlspecialchars($row['descripcion'] ?? '', ENT_QUOTES, 'UTF-8'),
             'precio' => (float)$row['precio'],
-            'imagen' => $imagen
+            'imagen' => $imagen,
+            'stock' => (int)$row['stock']
         ];
     }
     

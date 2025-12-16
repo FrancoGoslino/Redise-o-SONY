@@ -1,4 +1,14 @@
 <?php
+
+session_start();
+// Validate CSRF token
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    if (!isset($_POST['csrf_token']) || !isset($_SESSION['csrf_token']) || 
+        $_POST['csrf_token'] !== $_SESSION['csrf_token']) {
+        die('Error de seguridad: Token CSRF inválido');
+    }
+}
+
 global $conexion;
 
 require "conexion.php";

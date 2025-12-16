@@ -1,10 +1,15 @@
-global$conexion; <!DOCTYPE html>
+<!DOCTYPE html>
 <?php
 session_start();
-require_once "iniciar_sesion.php";
-require_once "conexion.php";
-require_once "../seguridad.php";
-require "phpControlador/permisos_vistas.php";
+
+// Generate CSRF token if it doesn't exist
+if (empty($_SESSION['csrf_token'])) {
+    $_SESSION['csrf_token'] = bin2hex(random_bytes(32));
+}
+$csrf_token = $_SESSION['csrf_token'];
+
+// Include database connection
+include "conexion.php";
 ?>
 <html lang="es">
 

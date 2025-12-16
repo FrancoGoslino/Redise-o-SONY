@@ -1,1 +1,3901 @@
-[16-Dec-2025 19:39:02 Europe/Berlin] Error en obtener_productos.php: Error de conexión a la base de datos
+[16-Dec-2025 21:48:29 Europe/Berlin] Producto ID: 1 - Ruta de imagen: /proyectoNuevo/img/productos/6941bdde0b995.png
+[16-Dec-2025 21:48:29 Europe/Berlin] Producto ID: 15 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:48:29 Europe/Berlin] Producto ID: 16 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:48:29 Europe/Berlin] Producto ID: 17 - Ruta de imagen: /proyectoNuevo/img/productos/auriculares_vincha.png
+[16-Dec-2025 21:48:29 Europe/Berlin] Producto ID: 18 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:48:29 Europe/Berlin] Producto ID: 19 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 21:48:29 Europe/Berlin] Producto ID: 20 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:48:29 Europe/Berlin] Producto ID: 21 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 21:48:29 Europe/Berlin] Producto ID: 22 - Ruta de imagen: /proyectoNuevo/img/productos/camara_productos.png
+[16-Dec-2025 21:48:29 Europe/Berlin] Sending JSON response: Array
+(
+    [success] => 1
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [nombre] => buzzer gigante
+                    [descripcion] => auriculares
+                    [precio] => 1233434
+                    [imagen] => /proyectoNuevo/img/productos/6941bdde0b995.png
+                    [stock] => 0
+                )
+
+            [1] => Array
+                (
+                    [id] => 15
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [2] => Array
+                (
+                    [id] => 16
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [3] => Array
+                (
+                    [id] => 17
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/auriculares_vincha.png
+                    [stock] => 0
+                )
+
+            [4] => Array
+                (
+                    [id] => 18
+                    [nombre] => 2
+                    [descripcion] => 2
+                    [precio] => 2
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [5] => Array
+                (
+                    [id] => 19
+                    [nombre] => 3
+                    [descripcion] => 3
+                    [precio] => 3
+                    [imagen] => /proyectoNuevo/img/productos/parlante.png
+                    [stock] => 0
+                )
+
+            [6] => Array
+                (
+                    [id] => 20
+                    [nombre] => 4
+                    [descripcion] => 4
+                    [precio] => 4
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [7] => Array
+                (
+                    [id] => 21
+                    [nombre] => 5
+                    [descripcion] => 5
+                    [precio] => 5
+                    [imagen] => /proyectoNuevo/img/productos/parlante.png
+                    [stock] => 0
+                )
+
+            [8] => Array
+                (
+                    [id] => 22
+                    [nombre] => 6
+                    [descripcion] => 6
+                    [precio] => 6
+                    [imagen] => /proyectoNuevo/img/productos/camara_productos.png
+                    [stock] => 0
+                )
+
+        )
+
+)
+
+[16-Dec-2025 21:48:42 Europe/Berlin] Producto ID: 1 - Ruta de imagen: /proyectoNuevo/img/productos/6941bdde0b995.png
+[16-Dec-2025 21:48:42 Europe/Berlin] Producto ID: 15 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:48:42 Europe/Berlin] Producto ID: 16 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:48:42 Europe/Berlin] Producto ID: 17 - Ruta de imagen: /proyectoNuevo/img/productos/auriculares_vincha.png
+[16-Dec-2025 21:48:42 Europe/Berlin] Producto ID: 18 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:48:42 Europe/Berlin] Producto ID: 19 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 21:48:42 Europe/Berlin] Producto ID: 20 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:48:42 Europe/Berlin] Producto ID: 21 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 21:48:42 Europe/Berlin] Producto ID: 22 - Ruta de imagen: /proyectoNuevo/img/productos/camara_productos.png
+[16-Dec-2025 21:48:42 Europe/Berlin] Sending JSON response: Array
+(
+    [success] => 1
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [nombre] => buzzer gigante
+                    [descripcion] => auriculares
+                    [precio] => 1233434
+                    [imagen] => /proyectoNuevo/img/productos/6941bdde0b995.png
+                    [stock] => 0
+                )
+
+            [1] => Array
+                (
+                    [id] => 15
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [2] => Array
+                (
+                    [id] => 16
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [3] => Array
+                (
+                    [id] => 17
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/auriculares_vincha.png
+                    [stock] => 0
+                )
+
+            [4] => Array
+                (
+                    [id] => 18
+                    [nombre] => 2
+                    [descripcion] => 2
+                    [precio] => 2
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [5] => Array
+                (
+                    [id] => 19
+                    [nombre] => 3
+                    [descripcion] => 3
+                    [precio] => 3
+                    [imagen] => /proyectoNuevo/img/productos/parlante.png
+                    [stock] => 0
+                )
+
+            [6] => Array
+                (
+                    [id] => 20
+                    [nombre] => 4
+                    [descripcion] => 4
+                    [precio] => 4
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [7] => Array
+                (
+                    [id] => 21
+                    [nombre] => 5
+                    [descripcion] => 5
+                    [precio] => 5
+                    [imagen] => /proyectoNuevo/img/productos/parlante.png
+                    [stock] => 0
+                )
+
+            [8] => Array
+                (
+                    [id] => 22
+                    [nombre] => 6
+                    [descripcion] => 6
+                    [precio] => 6
+                    [imagen] => /proyectoNuevo/img/productos/camara_productos.png
+                    [stock] => 0
+                )
+
+        )
+
+)
+
+[16-Dec-2025 21:49:55 Europe/Berlin] Producto ID: 1 - Ruta de imagen: /proyectoNuevo/img/productos/6941bdde0b995.png
+[16-Dec-2025 21:49:55 Europe/Berlin] Producto ID: 15 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:49:55 Europe/Berlin] Producto ID: 16 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:49:55 Europe/Berlin] Producto ID: 17 - Ruta de imagen: /proyectoNuevo/img/productos/auriculares_vincha.png
+[16-Dec-2025 21:49:55 Europe/Berlin] Producto ID: 18 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:49:55 Europe/Berlin] Producto ID: 19 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 21:49:55 Europe/Berlin] Producto ID: 20 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:49:55 Europe/Berlin] Producto ID: 21 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 21:49:55 Europe/Berlin] Producto ID: 22 - Ruta de imagen: /proyectoNuevo/img/productos/camara_productos.png
+[16-Dec-2025 21:49:55 Europe/Berlin] Sending JSON response: Array
+(
+    [success] => 1
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [nombre] => buzzer gigante
+                    [descripcion] => auriculares
+                    [precio] => 1233434
+                    [imagen] => /proyectoNuevo/img/productos/6941bdde0b995.png
+                    [stock] => 0
+                )
+
+            [1] => Array
+                (
+                    [id] => 15
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [2] => Array
+                (
+                    [id] => 16
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [3] => Array
+                (
+                    [id] => 17
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/auriculares_vincha.png
+                    [stock] => 0
+                )
+
+            [4] => Array
+                (
+                    [id] => 18
+                    [nombre] => 2
+                    [descripcion] => 2
+                    [precio] => 2
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [5] => Array
+                (
+                    [id] => 19
+                    [nombre] => 3
+                    [descripcion] => 3
+                    [precio] => 3
+                    [imagen] => /proyectoNuevo/img/productos/parlante.png
+                    [stock] => 0
+                )
+
+            [6] => Array
+                (
+                    [id] => 20
+                    [nombre] => 4
+                    [descripcion] => 4
+                    [precio] => 4
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [7] => Array
+                (
+                    [id] => 21
+                    [nombre] => 5
+                    [descripcion] => 5
+                    [precio] => 5
+                    [imagen] => /proyectoNuevo/img/productos/parlante.png
+                    [stock] => 0
+                )
+
+            [8] => Array
+                (
+                    [id] => 22
+                    [nombre] => 6
+                    [descripcion] => 6
+                    [precio] => 6
+                    [imagen] => /proyectoNuevo/img/productos/camara_productos.png
+                    [stock] => 0
+                )
+
+        )
+
+)
+
+[16-Dec-2025 21:50:06 Europe/Berlin] Producto ID: 1 - Ruta de imagen: /proyectoNuevo/img/productos/6941bdde0b995.png
+[16-Dec-2025 21:50:06 Europe/Berlin] Producto ID: 15 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:50:06 Europe/Berlin] Producto ID: 16 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:50:06 Europe/Berlin] Producto ID: 17 - Ruta de imagen: /proyectoNuevo/img/productos/auriculares_vincha.png
+[16-Dec-2025 21:50:06 Europe/Berlin] Producto ID: 18 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:50:06 Europe/Berlin] Producto ID: 19 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 21:50:06 Europe/Berlin] Producto ID: 20 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:50:06 Europe/Berlin] Producto ID: 21 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 21:50:06 Europe/Berlin] Producto ID: 22 - Ruta de imagen: /proyectoNuevo/img/productos/camara_productos.png
+[16-Dec-2025 21:50:06 Europe/Berlin] Sending JSON response: Array
+(
+    [success] => 1
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [nombre] => buzzer gigante
+                    [descripcion] => auriculares
+                    [precio] => 1233434
+                    [imagen] => /proyectoNuevo/img/productos/6941bdde0b995.png
+                    [stock] => 0
+                )
+
+            [1] => Array
+                (
+                    [id] => 15
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [2] => Array
+                (
+                    [id] => 16
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [3] => Array
+                (
+                    [id] => 17
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/auriculares_vincha.png
+                    [stock] => 0
+                )
+
+            [4] => Array
+                (
+                    [id] => 18
+                    [nombre] => 2
+                    [descripcion] => 2
+                    [precio] => 2
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [5] => Array
+                (
+                    [id] => 19
+                    [nombre] => 3
+                    [descripcion] => 3
+                    [precio] => 3
+                    [imagen] => /proyectoNuevo/img/productos/parlante.png
+                    [stock] => 0
+                )
+
+            [6] => Array
+                (
+                    [id] => 20
+                    [nombre] => 4
+                    [descripcion] => 4
+                    [precio] => 4
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [7] => Array
+                (
+                    [id] => 21
+                    [nombre] => 5
+                    [descripcion] => 5
+                    [precio] => 5
+                    [imagen] => /proyectoNuevo/img/productos/parlante.png
+                    [stock] => 0
+                )
+
+            [8] => Array
+                (
+                    [id] => 22
+                    [nombre] => 6
+                    [descripcion] => 6
+                    [precio] => 6
+                    [imagen] => /proyectoNuevo/img/productos/camara_productos.png
+                    [stock] => 0
+                )
+
+        )
+
+)
+
+[16-Dec-2025 21:52:53 Europe/Berlin] Producto ID: 1 - Ruta de imagen: /proyectoNuevo/img/productos/6941bdde0b995.png
+[16-Dec-2025 21:52:53 Europe/Berlin] Producto ID: 15 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:52:53 Europe/Berlin] Producto ID: 16 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:52:53 Europe/Berlin] Producto ID: 17 - Ruta de imagen: /proyectoNuevo/img/productos/auriculares_vincha.png
+[16-Dec-2025 21:52:53 Europe/Berlin] Producto ID: 18 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:52:53 Europe/Berlin] Producto ID: 19 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 21:52:53 Europe/Berlin] Producto ID: 20 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:52:53 Europe/Berlin] Producto ID: 21 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 21:52:53 Europe/Berlin] Producto ID: 22 - Ruta de imagen: /proyectoNuevo/img/productos/camara_productos.png
+[16-Dec-2025 21:52:53 Europe/Berlin] Sending JSON response: Array
+(
+    [success] => 1
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [nombre] => buzzer gigante
+                    [descripcion] => auriculares
+                    [precio] => 1233434
+                    [imagen] => /proyectoNuevo/img/productos/6941bdde0b995.png
+                    [stock] => 0
+                )
+
+            [1] => Array
+                (
+                    [id] => 15
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [2] => Array
+                (
+                    [id] => 16
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [3] => Array
+                (
+                    [id] => 17
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/auriculares_vincha.png
+                    [stock] => 0
+                )
+
+            [4] => Array
+                (
+                    [id] => 18
+                    [nombre] => 2
+                    [descripcion] => 2
+                    [precio] => 2
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [5] => Array
+                (
+                    [id] => 19
+                    [nombre] => 3
+                    [descripcion] => 3
+                    [precio] => 3
+                    [imagen] => /proyectoNuevo/img/productos/parlante.png
+                    [stock] => 0
+                )
+
+            [6] => Array
+                (
+                    [id] => 20
+                    [nombre] => 4
+                    [descripcion] => 4
+                    [precio] => 4
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [7] => Array
+                (
+                    [id] => 21
+                    [nombre] => 5
+                    [descripcion] => 5
+                    [precio] => 5
+                    [imagen] => /proyectoNuevo/img/productos/parlante.png
+                    [stock] => 0
+                )
+
+            [8] => Array
+                (
+                    [id] => 22
+                    [nombre] => 6
+                    [descripcion] => 6
+                    [precio] => 6
+                    [imagen] => /proyectoNuevo/img/productos/camara_productos.png
+                    [stock] => 0
+                )
+
+        )
+
+)
+
+[16-Dec-2025 21:54:25 Europe/Berlin] Producto ID: 1 - Ruta de imagen: /proyectoNuevo/img/productos/6941bdde0b995.png
+[16-Dec-2025 21:54:25 Europe/Berlin] Producto ID: 15 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:54:25 Europe/Berlin] Producto ID: 16 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:54:25 Europe/Berlin] Producto ID: 17 - Ruta de imagen: /proyectoNuevo/img/productos/auriculares_vincha.png
+[16-Dec-2025 21:54:25 Europe/Berlin] Producto ID: 18 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:54:25 Europe/Berlin] Producto ID: 19 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 21:54:25 Europe/Berlin] Producto ID: 20 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:54:25 Europe/Berlin] Producto ID: 21 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 21:54:25 Europe/Berlin] Producto ID: 22 - Ruta de imagen: /proyectoNuevo/img/productos/camara_productos.png
+[16-Dec-2025 21:54:25 Europe/Berlin] Sending JSON response: Array
+(
+    [success] => 1
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [nombre] => buzzer gigante
+                    [descripcion] => auriculares
+                    [precio] => 1233434
+                    [imagen] => /proyectoNuevo/img/productos/6941bdde0b995.png
+                    [stock] => 0
+                )
+
+            [1] => Array
+                (
+                    [id] => 15
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [2] => Array
+                (
+                    [id] => 16
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [3] => Array
+                (
+                    [id] => 17
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/auriculares_vincha.png
+                    [stock] => 0
+                )
+
+            [4] => Array
+                (
+                    [id] => 18
+                    [nombre] => 2
+                    [descripcion] => 2
+                    [precio] => 2
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [5] => Array
+                (
+                    [id] => 19
+                    [nombre] => 3
+                    [descripcion] => 3
+                    [precio] => 3
+                    [imagen] => /proyectoNuevo/img/productos/parlante.png
+                    [stock] => 0
+                )
+
+            [6] => Array
+                (
+                    [id] => 20
+                    [nombre] => 4
+                    [descripcion] => 4
+                    [precio] => 4
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [7] => Array
+                (
+                    [id] => 21
+                    [nombre] => 5
+                    [descripcion] => 5
+                    [precio] => 5
+                    [imagen] => /proyectoNuevo/img/productos/parlante.png
+                    [stock] => 0
+                )
+
+            [8] => Array
+                (
+                    [id] => 22
+                    [nombre] => 6
+                    [descripcion] => 6
+                    [precio] => 6
+                    [imagen] => /proyectoNuevo/img/productos/camara_productos.png
+                    [stock] => 0
+                )
+
+        )
+
+)
+
+[16-Dec-2025 21:57:48 Europe/Berlin] Producto ID: 1 - Ruta de imagen: /proyectoNuevo/img/productos/6941bdde0b995.png
+[16-Dec-2025 21:57:48 Europe/Berlin] Producto ID: 15 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:57:48 Europe/Berlin] Producto ID: 16 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:57:48 Europe/Berlin] Producto ID: 17 - Ruta de imagen: /proyectoNuevo/img/productos/auriculares_vincha.png
+[16-Dec-2025 21:57:48 Europe/Berlin] Producto ID: 18 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:57:48 Europe/Berlin] Producto ID: 19 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 21:57:48 Europe/Berlin] Producto ID: 20 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:57:48 Europe/Berlin] Producto ID: 21 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 21:57:48 Europe/Berlin] Producto ID: 22 - Ruta de imagen: /proyectoNuevo/img/productos/camara_productos.png
+[16-Dec-2025 21:57:48 Europe/Berlin] Productos a enviar: Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [nombre] => buzzer gigante
+            [descripcion] => auriculares
+            [precio] => 1233434
+            [imagen] => /proyectoNuevo/img/productos/6941bdde0b995.png
+            [stock] => Disponible
+        )
+
+    [1] => Array
+        (
+            [id] => 15
+            [nombre] => qaasdasd
+            [descripcion] => a
+            [precio] => 1
+            [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+            [stock] => Disponible
+        )
+
+    [2] => Array
+        (
+            [id] => 16
+            [nombre] => qaasdasd
+            [descripcion] => a
+            [precio] => 1
+            [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+            [stock] => Disponible
+        )
+
+    [3] => Array
+        (
+            [id] => 17
+            [nombre] => qaasdasd
+            [descripcion] => a
+            [precio] => 1
+            [imagen] => /proyectoNuevo/img/productos/auriculares_vincha.png
+            [stock] => Disponible
+        )
+
+    [4] => Array
+        (
+            [id] => 18
+            [nombre] => 2
+            [descripcion] => 2
+            [precio] => 2
+            [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+            [stock] => Disponible
+        )
+
+    [5] => Array
+        (
+            [id] => 19
+            [nombre] => 3
+            [descripcion] => 3
+            [precio] => 3
+            [imagen] => /proyectoNuevo/img/productos/parlante.png
+            [stock] => Disponible
+        )
+
+    [6] => Array
+        (
+            [id] => 20
+            [nombre] => 4
+            [descripcion] => 4
+            [precio] => 4
+            [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+            [stock] => Agotado
+        )
+
+    [7] => Array
+        (
+            [id] => 21
+            [nombre] => 5
+            [descripcion] => 5
+            [precio] => 5
+            [imagen] => /proyectoNuevo/img/productos/parlante.png
+            [stock] => Agotado
+        )
+
+    [8] => Array
+        (
+            [id] => 22
+            [nombre] => 6
+            [descripcion] => 6
+            [precio] => 6
+            [imagen] => /proyectoNuevo/img/productos/camara_productos.png
+            [stock] => Agotado
+        )
+
+)
+
+[16-Dec-2025 21:58:56 Europe/Berlin] Producto ID: 1 - Ruta de imagen: /proyectoNuevo/img/productos/6941bdde0b995.png
+[16-Dec-2025 21:58:56 Europe/Berlin] Producto ID: 15 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:58:56 Europe/Berlin] Producto ID: 16 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:58:56 Europe/Berlin] Producto ID: 17 - Ruta de imagen: /proyectoNuevo/img/productos/auriculares_vincha.png
+[16-Dec-2025 21:58:56 Europe/Berlin] Producto ID: 18 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:58:56 Europe/Berlin] Producto ID: 19 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 21:58:56 Europe/Berlin] Producto ID: 20 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:58:56 Europe/Berlin] Producto ID: 21 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 21:58:56 Europe/Berlin] Producto ID: 22 - Ruta de imagen: /proyectoNuevo/img/productos/camara_productos.png
+[16-Dec-2025 21:58:56 Europe/Berlin] Productos a enviar: Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [nombre] => buzzer gigante
+            [descripcion] => auriculares
+            [precio] => 1233434
+            [imagen] => /proyectoNuevo/img/productos/6941bdde0b995.png
+            [stock] => Disponible
+        )
+
+    [1] => Array
+        (
+            [id] => 15
+            [nombre] => qaasdasd
+            [descripcion] => a
+            [precio] => 1
+            [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+            [stock] => Disponible
+        )
+
+    [2] => Array
+        (
+            [id] => 16
+            [nombre] => qaasdasd
+            [descripcion] => a
+            [precio] => 1
+            [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+            [stock] => Disponible
+        )
+
+    [3] => Array
+        (
+            [id] => 17
+            [nombre] => qaasdasd
+            [descripcion] => a
+            [precio] => 1
+            [imagen] => /proyectoNuevo/img/productos/auriculares_vincha.png
+            [stock] => Disponible
+        )
+
+    [4] => Array
+        (
+            [id] => 18
+            [nombre] => 2
+            [descripcion] => 2
+            [precio] => 2
+            [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+            [stock] => Disponible
+        )
+
+    [5] => Array
+        (
+            [id] => 19
+            [nombre] => 3
+            [descripcion] => 3
+            [precio] => 3
+            [imagen] => /proyectoNuevo/img/productos/parlante.png
+            [stock] => Disponible
+        )
+
+    [6] => Array
+        (
+            [id] => 20
+            [nombre] => 4
+            [descripcion] => 4
+            [precio] => 4
+            [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+            [stock] => Agotado
+        )
+
+    [7] => Array
+        (
+            [id] => 21
+            [nombre] => 5
+            [descripcion] => 5
+            [precio] => 5
+            [imagen] => /proyectoNuevo/img/productos/parlante.png
+            [stock] => Agotado
+        )
+
+    [8] => Array
+        (
+            [id] => 22
+            [nombre] => 6
+            [descripcion] => 6
+            [precio] => 6
+            [imagen] => /proyectoNuevo/img/productos/camara_productos.png
+            [stock] => Agotado
+        )
+
+)
+
+[16-Dec-2025 21:58:57 Europe/Berlin] Producto ID: 1 - Ruta de imagen: /proyectoNuevo/img/productos/6941bdde0b995.png
+[16-Dec-2025 21:58:57 Europe/Berlin] Producto ID: 15 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:58:57 Europe/Berlin] Producto ID: 16 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:58:57 Europe/Berlin] Producto ID: 17 - Ruta de imagen: /proyectoNuevo/img/productos/auriculares_vincha.png
+[16-Dec-2025 21:58:57 Europe/Berlin] Producto ID: 18 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:58:57 Europe/Berlin] Producto ID: 19 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 21:58:57 Europe/Berlin] Producto ID: 20 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:58:57 Europe/Berlin] Producto ID: 21 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 21:58:57 Europe/Berlin] Producto ID: 22 - Ruta de imagen: /proyectoNuevo/img/productos/camara_productos.png
+[16-Dec-2025 21:58:57 Europe/Berlin] Productos a enviar: Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [nombre] => buzzer gigante
+            [descripcion] => auriculares
+            [precio] => 1233434
+            [imagen] => /proyectoNuevo/img/productos/6941bdde0b995.png
+            [stock] => Disponible
+        )
+
+    [1] => Array
+        (
+            [id] => 15
+            [nombre] => qaasdasd
+            [descripcion] => a
+            [precio] => 1
+            [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+            [stock] => Disponible
+        )
+
+    [2] => Array
+        (
+            [id] => 16
+            [nombre] => qaasdasd
+            [descripcion] => a
+            [precio] => 1
+            [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+            [stock] => Disponible
+        )
+
+    [3] => Array
+        (
+            [id] => 17
+            [nombre] => qaasdasd
+            [descripcion] => a
+            [precio] => 1
+            [imagen] => /proyectoNuevo/img/productos/auriculares_vincha.png
+            [stock] => Disponible
+        )
+
+    [4] => Array
+        (
+            [id] => 18
+            [nombre] => 2
+            [descripcion] => 2
+            [precio] => 2
+            [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+            [stock] => Disponible
+        )
+
+    [5] => Array
+        (
+            [id] => 19
+            [nombre] => 3
+            [descripcion] => 3
+            [precio] => 3
+            [imagen] => /proyectoNuevo/img/productos/parlante.png
+            [stock] => Disponible
+        )
+
+    [6] => Array
+        (
+            [id] => 20
+            [nombre] => 4
+            [descripcion] => 4
+            [precio] => 4
+            [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+            [stock] => Agotado
+        )
+
+    [7] => Array
+        (
+            [id] => 21
+            [nombre] => 5
+            [descripcion] => 5
+            [precio] => 5
+            [imagen] => /proyectoNuevo/img/productos/parlante.png
+            [stock] => Agotado
+        )
+
+    [8] => Array
+        (
+            [id] => 22
+            [nombre] => 6
+            [descripcion] => 6
+            [precio] => 6
+            [imagen] => /proyectoNuevo/img/productos/camara_productos.png
+            [stock] => Agotado
+        )
+
+)
+
+[16-Dec-2025 21:59:05 Europe/Berlin] Producto ID: 1 - Ruta de imagen: /proyectoNuevo/img/productos/6941bdde0b995.png
+[16-Dec-2025 21:59:05 Europe/Berlin] Producto ID: 15 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:59:05 Europe/Berlin] Producto ID: 16 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:59:05 Europe/Berlin] Producto ID: 17 - Ruta de imagen: /proyectoNuevo/img/productos/auriculares_vincha.png
+[16-Dec-2025 21:59:05 Europe/Berlin] Producto ID: 18 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:59:05 Europe/Berlin] Producto ID: 19 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 21:59:05 Europe/Berlin] Producto ID: 20 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:59:05 Europe/Berlin] Producto ID: 21 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 21:59:05 Europe/Berlin] Producto ID: 22 - Ruta de imagen: /proyectoNuevo/img/productos/camara_productos.png
+[16-Dec-2025 21:59:05 Europe/Berlin] Productos a enviar: Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [nombre] => buzzer gigante
+            [descripcion] => auriculares
+            [precio] => 1233434
+            [imagen] => /proyectoNuevo/img/productos/6941bdde0b995.png
+            [stock] => Disponible
+        )
+
+    [1] => Array
+        (
+            [id] => 15
+            [nombre] => qaasdasd
+            [descripcion] => a
+            [precio] => 1
+            [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+            [stock] => Disponible
+        )
+
+    [2] => Array
+        (
+            [id] => 16
+            [nombre] => qaasdasd
+            [descripcion] => a
+            [precio] => 1
+            [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+            [stock] => Disponible
+        )
+
+    [3] => Array
+        (
+            [id] => 17
+            [nombre] => qaasdasd
+            [descripcion] => a
+            [precio] => 1
+            [imagen] => /proyectoNuevo/img/productos/auriculares_vincha.png
+            [stock] => Disponible
+        )
+
+    [4] => Array
+        (
+            [id] => 18
+            [nombre] => 2
+            [descripcion] => 2
+            [precio] => 2
+            [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+            [stock] => Disponible
+        )
+
+    [5] => Array
+        (
+            [id] => 19
+            [nombre] => 3
+            [descripcion] => 3
+            [precio] => 3
+            [imagen] => /proyectoNuevo/img/productos/parlante.png
+            [stock] => Disponible
+        )
+
+    [6] => Array
+        (
+            [id] => 20
+            [nombre] => 4
+            [descripcion] => 4
+            [precio] => 4
+            [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+            [stock] => Agotado
+        )
+
+    [7] => Array
+        (
+            [id] => 21
+            [nombre] => 5
+            [descripcion] => 5
+            [precio] => 5
+            [imagen] => /proyectoNuevo/img/productos/parlante.png
+            [stock] => Agotado
+        )
+
+    [8] => Array
+        (
+            [id] => 22
+            [nombre] => 6
+            [descripcion] => 6
+            [precio] => 6
+            [imagen] => /proyectoNuevo/img/productos/camara_productos.png
+            [stock] => Agotado
+        )
+
+)
+
+[16-Dec-2025 21:59:09 Europe/Berlin] Producto ID: 1 - Ruta de imagen: /proyectoNuevo/img/productos/6941bdde0b995.png
+[16-Dec-2025 21:59:09 Europe/Berlin] Producto ID: 15 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:59:09 Europe/Berlin] Producto ID: 16 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:59:09 Europe/Berlin] Producto ID: 17 - Ruta de imagen: /proyectoNuevo/img/productos/auriculares_vincha.png
+[16-Dec-2025 21:59:09 Europe/Berlin] Producto ID: 18 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:59:09 Europe/Berlin] Producto ID: 19 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 21:59:09 Europe/Berlin] Producto ID: 20 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:59:09 Europe/Berlin] Producto ID: 21 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 21:59:09 Europe/Berlin] Producto ID: 22 - Ruta de imagen: /proyectoNuevo/img/productos/camara_productos.png
+[16-Dec-2025 21:59:09 Europe/Berlin] Productos a enviar: Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [nombre] => buzzer gigante
+            [descripcion] => auriculares
+            [precio] => 1233434
+            [imagen] => /proyectoNuevo/img/productos/6941bdde0b995.png
+            [stock] => Disponible
+        )
+
+    [1] => Array
+        (
+            [id] => 15
+            [nombre] => qaasdasd
+            [descripcion] => a
+            [precio] => 1
+            [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+            [stock] => Disponible
+        )
+
+    [2] => Array
+        (
+            [id] => 16
+            [nombre] => qaasdasd
+            [descripcion] => a
+            [precio] => 1
+            [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+            [stock] => Disponible
+        )
+
+    [3] => Array
+        (
+            [id] => 17
+            [nombre] => qaasdasd
+            [descripcion] => a
+            [precio] => 1
+            [imagen] => /proyectoNuevo/img/productos/auriculares_vincha.png
+            [stock] => Disponible
+        )
+
+    [4] => Array
+        (
+            [id] => 18
+            [nombre] => 2
+            [descripcion] => 2
+            [precio] => 2
+            [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+            [stock] => Disponible
+        )
+
+    [5] => Array
+        (
+            [id] => 19
+            [nombre] => 3
+            [descripcion] => 3
+            [precio] => 3
+            [imagen] => /proyectoNuevo/img/productos/parlante.png
+            [stock] => Disponible
+        )
+
+    [6] => Array
+        (
+            [id] => 20
+            [nombre] => 4
+            [descripcion] => 4
+            [precio] => 4
+            [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+            [stock] => Agotado
+        )
+
+    [7] => Array
+        (
+            [id] => 21
+            [nombre] => 5
+            [descripcion] => 5
+            [precio] => 5
+            [imagen] => /proyectoNuevo/img/productos/parlante.png
+            [stock] => Agotado
+        )
+
+    [8] => Array
+        (
+            [id] => 22
+            [nombre] => 6
+            [descripcion] => 6
+            [precio] => 6
+            [imagen] => /proyectoNuevo/img/productos/camara_productos.png
+            [stock] => Agotado
+        )
+
+)
+
+[16-Dec-2025 21:59:14 Europe/Berlin] Producto ID: 1 - Ruta de imagen: /proyectoNuevo/img/productos/6941bdde0b995.png
+[16-Dec-2025 21:59:14 Europe/Berlin] Producto ID: 15 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:59:14 Europe/Berlin] Producto ID: 16 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:59:14 Europe/Berlin] Producto ID: 17 - Ruta de imagen: /proyectoNuevo/img/productos/auriculares_vincha.png
+[16-Dec-2025 21:59:14 Europe/Berlin] Producto ID: 18 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:59:14 Europe/Berlin] Producto ID: 19 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 21:59:14 Europe/Berlin] Producto ID: 20 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:59:14 Europe/Berlin] Producto ID: 21 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 21:59:14 Europe/Berlin] Producto ID: 22 - Ruta de imagen: /proyectoNuevo/img/productos/camara_productos.png
+[16-Dec-2025 21:59:14 Europe/Berlin] Sending JSON response: Array
+(
+    [success] => 1
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [nombre] => buzzer gigante
+                    [descripcion] => auriculares
+                    [precio] => 1233434
+                    [imagen] => /proyectoNuevo/img/productos/6941bdde0b995.png
+                    [stock] => 0
+                )
+
+            [1] => Array
+                (
+                    [id] => 15
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [2] => Array
+                (
+                    [id] => 16
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [3] => Array
+                (
+                    [id] => 17
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/auriculares_vincha.png
+                    [stock] => 0
+                )
+
+            [4] => Array
+                (
+                    [id] => 18
+                    [nombre] => 2
+                    [descripcion] => 2
+                    [precio] => 2
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [5] => Array
+                (
+                    [id] => 19
+                    [nombre] => 3
+                    [descripcion] => 3
+                    [precio] => 3
+                    [imagen] => /proyectoNuevo/img/productos/parlante.png
+                    [stock] => 0
+                )
+
+            [6] => Array
+                (
+                    [id] => 20
+                    [nombre] => 4
+                    [descripcion] => 4
+                    [precio] => 4
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [7] => Array
+                (
+                    [id] => 21
+                    [nombre] => 5
+                    [descripcion] => 5
+                    [precio] => 5
+                    [imagen] => /proyectoNuevo/img/productos/parlante.png
+                    [stock] => 0
+                )
+
+            [8] => Array
+                (
+                    [id] => 22
+                    [nombre] => 6
+                    [descripcion] => 6
+                    [precio] => 6
+                    [imagen] => /proyectoNuevo/img/productos/camara_productos.png
+                    [stock] => 0
+                )
+
+        )
+
+)
+
+[16-Dec-2025 21:59:15 Europe/Berlin] Producto ID: 1 - Ruta de imagen: /proyectoNuevo/img/productos/6941bdde0b995.png
+[16-Dec-2025 21:59:15 Europe/Berlin] Producto ID: 15 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:59:15 Europe/Berlin] Producto ID: 16 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:59:15 Europe/Berlin] Producto ID: 17 - Ruta de imagen: /proyectoNuevo/img/productos/auriculares_vincha.png
+[16-Dec-2025 21:59:15 Europe/Berlin] Producto ID: 18 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:59:15 Europe/Berlin] Producto ID: 19 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 21:59:15 Europe/Berlin] Producto ID: 20 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:59:15 Europe/Berlin] Producto ID: 21 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 21:59:15 Europe/Berlin] Producto ID: 22 - Ruta de imagen: /proyectoNuevo/img/productos/camara_productos.png
+[16-Dec-2025 21:59:15 Europe/Berlin] Sending JSON response: Array
+(
+    [success] => 1
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [nombre] => buzzer gigante
+                    [descripcion] => auriculares
+                    [precio] => 1233434
+                    [imagen] => /proyectoNuevo/img/productos/6941bdde0b995.png
+                    [stock] => 0
+                )
+
+            [1] => Array
+                (
+                    [id] => 15
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [2] => Array
+                (
+                    [id] => 16
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [3] => Array
+                (
+                    [id] => 17
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/auriculares_vincha.png
+                    [stock] => 0
+                )
+
+            [4] => Array
+                (
+                    [id] => 18
+                    [nombre] => 2
+                    [descripcion] => 2
+                    [precio] => 2
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [5] => Array
+                (
+                    [id] => 19
+                    [nombre] => 3
+                    [descripcion] => 3
+                    [precio] => 3
+                    [imagen] => /proyectoNuevo/img/productos/parlante.png
+                    [stock] => 0
+                )
+
+            [6] => Array
+                (
+                    [id] => 20
+                    [nombre] => 4
+                    [descripcion] => 4
+                    [precio] => 4
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [7] => Array
+                (
+                    [id] => 21
+                    [nombre] => 5
+                    [descripcion] => 5
+                    [precio] => 5
+                    [imagen] => /proyectoNuevo/img/productos/parlante.png
+                    [stock] => 0
+                )
+
+            [8] => Array
+                (
+                    [id] => 22
+                    [nombre] => 6
+                    [descripcion] => 6
+                    [precio] => 6
+                    [imagen] => /proyectoNuevo/img/productos/camara_productos.png
+                    [stock] => 0
+                )
+
+        )
+
+)
+
+[16-Dec-2025 21:59:20 Europe/Berlin] Producto ID: 1 - Ruta de imagen: /proyectoNuevo/img/productos/6941bdde0b995.png
+[16-Dec-2025 21:59:20 Europe/Berlin] Producto ID: 15 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:59:20 Europe/Berlin] Producto ID: 16 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:59:20 Europe/Berlin] Producto ID: 17 - Ruta de imagen: /proyectoNuevo/img/productos/auriculares_vincha.png
+[16-Dec-2025 21:59:20 Europe/Berlin] Producto ID: 18 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:59:20 Europe/Berlin] Producto ID: 19 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 21:59:20 Europe/Berlin] Producto ID: 20 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:59:20 Europe/Berlin] Producto ID: 21 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 21:59:20 Europe/Berlin] Producto ID: 22 - Ruta de imagen: /proyectoNuevo/img/productos/camara_productos.png
+[16-Dec-2025 21:59:20 Europe/Berlin] Sending JSON response: Array
+(
+    [success] => 1
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [nombre] => buzzer gigante
+                    [descripcion] => auriculares
+                    [precio] => 1233434
+                    [imagen] => /proyectoNuevo/img/productos/6941bdde0b995.png
+                    [stock] => 0
+                )
+
+            [1] => Array
+                (
+                    [id] => 15
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [2] => Array
+                (
+                    [id] => 16
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [3] => Array
+                (
+                    [id] => 17
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/auriculares_vincha.png
+                    [stock] => 0
+                )
+
+            [4] => Array
+                (
+                    [id] => 18
+                    [nombre] => 2
+                    [descripcion] => 2
+                    [precio] => 2
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [5] => Array
+                (
+                    [id] => 19
+                    [nombre] => 3
+                    [descripcion] => 3
+                    [precio] => 3
+                    [imagen] => /proyectoNuevo/img/productos/parlante.png
+                    [stock] => 0
+                )
+
+            [6] => Array
+                (
+                    [id] => 20
+                    [nombre] => 4
+                    [descripcion] => 4
+                    [precio] => 4
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [7] => Array
+                (
+                    [id] => 21
+                    [nombre] => 5
+                    [descripcion] => 5
+                    [precio] => 5
+                    [imagen] => /proyectoNuevo/img/productos/parlante.png
+                    [stock] => 0
+                )
+
+            [8] => Array
+                (
+                    [id] => 22
+                    [nombre] => 6
+                    [descripcion] => 6
+                    [precio] => 6
+                    [imagen] => /proyectoNuevo/img/productos/camara_productos.png
+                    [stock] => 0
+                )
+
+        )
+
+)
+
+[16-Dec-2025 21:59:24 Europe/Berlin] Producto ID: 1 - Ruta de imagen: /proyectoNuevo/img/productos/6941bdde0b995.png
+[16-Dec-2025 21:59:24 Europe/Berlin] Producto ID: 15 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:59:24 Europe/Berlin] Producto ID: 16 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:59:24 Europe/Berlin] Producto ID: 17 - Ruta de imagen: /proyectoNuevo/img/productos/auriculares_vincha.png
+[16-Dec-2025 21:59:24 Europe/Berlin] Producto ID: 18 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:59:24 Europe/Berlin] Producto ID: 19 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 21:59:24 Europe/Berlin] Producto ID: 20 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:59:24 Europe/Berlin] Producto ID: 21 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 21:59:24 Europe/Berlin] Producto ID: 22 - Ruta de imagen: /proyectoNuevo/img/productos/camara_productos.png
+[16-Dec-2025 21:59:24 Europe/Berlin] Sending JSON response: Array
+(
+    [success] => 1
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [nombre] => buzzer gigante
+                    [descripcion] => auriculares
+                    [precio] => 1233434
+                    [imagen] => /proyectoNuevo/img/productos/6941bdde0b995.png
+                    [stock] => 0
+                )
+
+            [1] => Array
+                (
+                    [id] => 15
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [2] => Array
+                (
+                    [id] => 16
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [3] => Array
+                (
+                    [id] => 17
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/auriculares_vincha.png
+                    [stock] => 0
+                )
+
+            [4] => Array
+                (
+                    [id] => 18
+                    [nombre] => 2
+                    [descripcion] => 2
+                    [precio] => 2
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [5] => Array
+                (
+                    [id] => 19
+                    [nombre] => 3
+                    [descripcion] => 3
+                    [precio] => 3
+                    [imagen] => /proyectoNuevo/img/productos/parlante.png
+                    [stock] => 0
+                )
+
+            [6] => Array
+                (
+                    [id] => 20
+                    [nombre] => 4
+                    [descripcion] => 4
+                    [precio] => 4
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [7] => Array
+                (
+                    [id] => 21
+                    [nombre] => 5
+                    [descripcion] => 5
+                    [precio] => 5
+                    [imagen] => /proyectoNuevo/img/productos/parlante.png
+                    [stock] => 0
+                )
+
+            [8] => Array
+                (
+                    [id] => 22
+                    [nombre] => 6
+                    [descripcion] => 6
+                    [precio] => 6
+                    [imagen] => /proyectoNuevo/img/productos/camara_productos.png
+                    [stock] => 0
+                )
+
+        )
+
+)
+
+[16-Dec-2025 21:59:32 Europe/Berlin] Directorio actual: C:\xampp\htdocs\proyectoNuevo\phpControlador
+[16-Dec-2025 21:59:32 Europe/Berlin] Ruta base: C:\xampp\htdocs\proyectoNuevo
+[16-Dec-2025 21:59:32 Europe/Berlin] Producto ID: 1 - Ruta de imagen: /proyectoNuevo/img/productos/6941bdde0b995.png
+[16-Dec-2025 21:59:32 Europe/Berlin] Producto ID: 15 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:59:32 Europe/Berlin] Producto ID: 16 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:59:32 Europe/Berlin] Producto ID: 17 - Ruta de imagen: /proyectoNuevo/img/productos/auriculares_vincha.png
+[16-Dec-2025 21:59:32 Europe/Berlin] Producto ID: 18 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:59:32 Europe/Berlin] Producto ID: 19 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 21:59:32 Europe/Berlin] Producto ID: 20 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:59:32 Europe/Berlin] Producto ID: 21 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 21:59:32 Europe/Berlin] Producto ID: 22 - Ruta de imagen: /proyectoNuevo/img/productos/camara_productos.png
+[16-Dec-2025 21:59:32 Europe/Berlin] Datos del primer producto: No hay productos
+[16-Dec-2025 21:59:36 Europe/Berlin] Directorio actual: C:\xampp\htdocs\proyectoNuevo\phpControlador
+[16-Dec-2025 21:59:36 Europe/Berlin] Ruta base: C:\xampp\htdocs\proyectoNuevo
+[16-Dec-2025 21:59:36 Europe/Berlin] Producto ID: 1 - Ruta de imagen: /proyectoNuevo/img/productos/6941bdde0b995.png
+[16-Dec-2025 21:59:36 Europe/Berlin] Producto ID: 15 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:59:36 Europe/Berlin] Producto ID: 16 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:59:36 Europe/Berlin] Producto ID: 17 - Ruta de imagen: /proyectoNuevo/img/productos/auriculares_vincha.png
+[16-Dec-2025 21:59:36 Europe/Berlin] Producto ID: 18 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:59:36 Europe/Berlin] Producto ID: 19 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 21:59:36 Europe/Berlin] Producto ID: 20 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:59:36 Europe/Berlin] Producto ID: 21 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 21:59:36 Europe/Berlin] Producto ID: 22 - Ruta de imagen: /proyectoNuevo/img/productos/camara_productos.png
+[16-Dec-2025 21:59:49 Europe/Berlin] Producto ID: 1 - Ruta de imagen: /proyectoNuevo/img/productos/6941bdde0b995.png
+[16-Dec-2025 21:59:49 Europe/Berlin] Producto ID: 15 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:59:49 Europe/Berlin] Producto ID: 16 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:59:49 Europe/Berlin] Producto ID: 17 - Ruta de imagen: /proyectoNuevo/img/productos/auriculares_vincha.png
+[16-Dec-2025 21:59:49 Europe/Berlin] Producto ID: 18 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:59:49 Europe/Berlin] Producto ID: 19 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 21:59:49 Europe/Berlin] Producto ID: 20 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 21:59:49 Europe/Berlin] Producto ID: 21 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 21:59:49 Europe/Berlin] Producto ID: 22 - Ruta de imagen: /proyectoNuevo/img/productos/camara_productos.png
+[16-Dec-2025 21:59:49 Europe/Berlin] Sending JSON response: Array
+(
+    [success] => 1
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [nombre] => buzzer gigante
+                    [descripcion] => auriculares
+                    [precio] => 1233434
+                    [imagen] => /proyectoNuevo/img/productos/6941bdde0b995.png
+                    [stock] => 0
+                )
+
+            [1] => Array
+                (
+                    [id] => 15
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [2] => Array
+                (
+                    [id] => 16
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [3] => Array
+                (
+                    [id] => 17
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/auriculares_vincha.png
+                    [stock] => 0
+                )
+
+            [4] => Array
+                (
+                    [id] => 18
+                    [nombre] => 2
+                    [descripcion] => 2
+                    [precio] => 2
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [5] => Array
+                (
+                    [id] => 19
+                    [nombre] => 3
+                    [descripcion] => 3
+                    [precio] => 3
+                    [imagen] => /proyectoNuevo/img/productos/parlante.png
+                    [stock] => 0
+                )
+
+            [6] => Array
+                (
+                    [id] => 20
+                    [nombre] => 4
+                    [descripcion] => 4
+                    [precio] => 4
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [7] => Array
+                (
+                    [id] => 21
+                    [nombre] => 5
+                    [descripcion] => 5
+                    [precio] => 5
+                    [imagen] => /proyectoNuevo/img/productos/parlante.png
+                    [stock] => 0
+                )
+
+            [8] => Array
+                (
+                    [id] => 22
+                    [nombre] => 6
+                    [descripcion] => 6
+                    [precio] => 6
+                    [imagen] => /proyectoNuevo/img/productos/camara_productos.png
+                    [stock] => 0
+                )
+
+        )
+
+)
+
+[16-Dec-2025 22:00:04 Europe/Berlin] Producto ID: 1 - Ruta de imagen: /proyectoNuevo/img/productos/6941bdde0b995.png
+[16-Dec-2025 22:00:04 Europe/Berlin] Producto ID: 15 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:00:04 Europe/Berlin] Producto ID: 16 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:00:04 Europe/Berlin] Producto ID: 17 - Ruta de imagen: /proyectoNuevo/img/productos/auriculares_vincha.png
+[16-Dec-2025 22:00:04 Europe/Berlin] Producto ID: 18 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:00:04 Europe/Berlin] Producto ID: 19 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 22:00:04 Europe/Berlin] Producto ID: 20 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:00:04 Europe/Berlin] Producto ID: 21 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 22:00:04 Europe/Berlin] Producto ID: 22 - Ruta de imagen: /proyectoNuevo/img/productos/camara_productos.png
+[16-Dec-2025 22:00:04 Europe/Berlin] Sending JSON response: Array
+(
+    [success] => 1
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [nombre] => buzzer gigante
+                    [descripcion] => auriculares
+                    [precio] => 1233434
+                    [imagen] => /proyectoNuevo/img/productos/6941bdde0b995.png
+                    [stock] => 0
+                )
+
+            [1] => Array
+                (
+                    [id] => 15
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [2] => Array
+                (
+                    [id] => 16
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [3] => Array
+                (
+                    [id] => 17
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/auriculares_vincha.png
+                    [stock] => 0
+                )
+
+            [4] => Array
+                (
+                    [id] => 18
+                    [nombre] => 2
+                    [descripcion] => 2
+                    [precio] => 2
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [5] => Array
+                (
+                    [id] => 19
+                    [nombre] => 3
+                    [descripcion] => 3
+                    [precio] => 3
+                    [imagen] => /proyectoNuevo/img/productos/parlante.png
+                    [stock] => 0
+                )
+
+            [6] => Array
+                (
+                    [id] => 20
+                    [nombre] => 4
+                    [descripcion] => 4
+                    [precio] => 4
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [7] => Array
+                (
+                    [id] => 21
+                    [nombre] => 5
+                    [descripcion] => 5
+                    [precio] => 5
+                    [imagen] => /proyectoNuevo/img/productos/parlante.png
+                    [stock] => 0
+                )
+
+            [8] => Array
+                (
+                    [id] => 22
+                    [nombre] => 6
+                    [descripcion] => 6
+                    [precio] => 6
+                    [imagen] => /proyectoNuevo/img/productos/camara_productos.png
+                    [stock] => 0
+                )
+
+        )
+
+)
+
+[16-Dec-2025 22:01:32 Europe/Berlin] Producto ID: 1 - Ruta de imagen: /proyectoNuevo/img/productos/6941bdde0b995.png
+[16-Dec-2025 22:01:32 Europe/Berlin] Producto ID: 15 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:01:32 Europe/Berlin] Producto ID: 16 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:01:32 Europe/Berlin] Producto ID: 17 - Ruta de imagen: /proyectoNuevo/img/productos/auriculares_vincha.png
+[16-Dec-2025 22:01:32 Europe/Berlin] Producto ID: 18 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:01:32 Europe/Berlin] Producto ID: 19 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 22:01:32 Europe/Berlin] Producto ID: 20 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:01:32 Europe/Berlin] Producto ID: 21 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 22:01:32 Europe/Berlin] Producto ID: 22 - Ruta de imagen: /proyectoNuevo/img/productos/camara_productos.png
+[16-Dec-2025 22:01:32 Europe/Berlin] Sending JSON response: Array
+(
+    [success] => 1
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [nombre] => buzzer gigante
+                    [descripcion] => auriculares
+                    [precio] => 1233434
+                    [imagen] => /proyectoNuevo/img/productos/6941bdde0b995.png
+                    [stock] => 0
+                )
+
+            [1] => Array
+                (
+                    [id] => 15
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [2] => Array
+                (
+                    [id] => 16
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [3] => Array
+                (
+                    [id] => 17
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/auriculares_vincha.png
+                    [stock] => 0
+                )
+
+            [4] => Array
+                (
+                    [id] => 18
+                    [nombre] => 2
+                    [descripcion] => 2
+                    [precio] => 2
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [5] => Array
+                (
+                    [id] => 19
+                    [nombre] => 3
+                    [descripcion] => 3
+                    [precio] => 3
+                    [imagen] => /proyectoNuevo/img/productos/parlante.png
+                    [stock] => 0
+                )
+
+            [6] => Array
+                (
+                    [id] => 20
+                    [nombre] => 4
+                    [descripcion] => 4
+                    [precio] => 4
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [7] => Array
+                (
+                    [id] => 21
+                    [nombre] => 5
+                    [descripcion] => 5
+                    [precio] => 5
+                    [imagen] => /proyectoNuevo/img/productos/parlante.png
+                    [stock] => 0
+                )
+
+            [8] => Array
+                (
+                    [id] => 22
+                    [nombre] => 6
+                    [descripcion] => 6
+                    [precio] => 6
+                    [imagen] => /proyectoNuevo/img/productos/camara_productos.png
+                    [stock] => 0
+                )
+
+        )
+
+)
+
+[16-Dec-2025 22:03:25 Europe/Berlin] Producto ID: 1 - Ruta de imagen: /proyectoNuevo/img/productos/6941bdde0b995.png
+[16-Dec-2025 22:03:25 Europe/Berlin] Producto ID: 15 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:03:25 Europe/Berlin] Producto ID: 16 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:03:25 Europe/Berlin] Producto ID: 17 - Ruta de imagen: /proyectoNuevo/img/productos/auriculares_vincha.png
+[16-Dec-2025 22:03:25 Europe/Berlin] Producto ID: 18 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:03:25 Europe/Berlin] Producto ID: 19 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 22:03:25 Europe/Berlin] Producto ID: 20 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:03:25 Europe/Berlin] Producto ID: 21 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 22:03:25 Europe/Berlin] Producto ID: 22 - Ruta de imagen: /proyectoNuevo/img/productos/camara_productos.png
+[16-Dec-2025 22:03:25 Europe/Berlin] Sending JSON response: Array
+(
+    [success] => 1
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [nombre] => buzzer gigante
+                    [descripcion] => auriculares
+                    [precio] => 1233434
+                    [imagen] => /proyectoNuevo/img/productos/6941bdde0b995.png
+                    [stock] => 0
+                )
+
+            [1] => Array
+                (
+                    [id] => 15
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [2] => Array
+                (
+                    [id] => 16
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [3] => Array
+                (
+                    [id] => 17
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/auriculares_vincha.png
+                    [stock] => 0
+                )
+
+            [4] => Array
+                (
+                    [id] => 18
+                    [nombre] => 2
+                    [descripcion] => 2
+                    [precio] => 2
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [5] => Array
+                (
+                    [id] => 19
+                    [nombre] => 3
+                    [descripcion] => 3
+                    [precio] => 3
+                    [imagen] => /proyectoNuevo/img/productos/parlante.png
+                    [stock] => 0
+                )
+
+            [6] => Array
+                (
+                    [id] => 20
+                    [nombre] => 4
+                    [descripcion] => 4
+                    [precio] => 4
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [7] => Array
+                (
+                    [id] => 21
+                    [nombre] => 5
+                    [descripcion] => 5
+                    [precio] => 5
+                    [imagen] => /proyectoNuevo/img/productos/parlante.png
+                    [stock] => 0
+                )
+
+            [8] => Array
+                (
+                    [id] => 22
+                    [nombre] => 6
+                    [descripcion] => 6
+                    [precio] => 6
+                    [imagen] => /proyectoNuevo/img/productos/camara_productos.png
+                    [stock] => 0
+                )
+
+        )
+
+)
+
+[16-Dec-2025 22:03:41 Europe/Berlin] Producto ID: 1 - Ruta de imagen: /proyectoNuevo/img/productos/6941bdde0b995.png
+[16-Dec-2025 22:03:41 Europe/Berlin] Producto ID: 15 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:03:41 Europe/Berlin] Producto ID: 16 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:03:41 Europe/Berlin] Producto ID: 17 - Ruta de imagen: /proyectoNuevo/img/productos/auriculares_vincha.png
+[16-Dec-2025 22:03:41 Europe/Berlin] Producto ID: 18 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:03:41 Europe/Berlin] Producto ID: 19 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 22:03:41 Europe/Berlin] Producto ID: 20 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:03:41 Europe/Berlin] Producto ID: 21 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 22:03:41 Europe/Berlin] Producto ID: 22 - Ruta de imagen: /proyectoNuevo/img/productos/camara_productos.png
+[16-Dec-2025 22:03:41 Europe/Berlin] Sending JSON response: Array
+(
+    [success] => 1
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [nombre] => buzzer gigante
+                    [descripcion] => auriculares
+                    [precio] => 1233434
+                    [imagen] => /proyectoNuevo/img/productos/6941bdde0b995.png
+                    [stock] => 0
+                )
+
+            [1] => Array
+                (
+                    [id] => 15
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [2] => Array
+                (
+                    [id] => 16
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [3] => Array
+                (
+                    [id] => 17
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/auriculares_vincha.png
+                    [stock] => 0
+                )
+
+            [4] => Array
+                (
+                    [id] => 18
+                    [nombre] => 2
+                    [descripcion] => 2
+                    [precio] => 2
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [5] => Array
+                (
+                    [id] => 19
+                    [nombre] => 3
+                    [descripcion] => 3
+                    [precio] => 3
+                    [imagen] => /proyectoNuevo/img/productos/parlante.png
+                    [stock] => 0
+                )
+
+            [6] => Array
+                (
+                    [id] => 20
+                    [nombre] => 4
+                    [descripcion] => 4
+                    [precio] => 4
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [7] => Array
+                (
+                    [id] => 21
+                    [nombre] => 5
+                    [descripcion] => 5
+                    [precio] => 5
+                    [imagen] => /proyectoNuevo/img/productos/parlante.png
+                    [stock] => 0
+                )
+
+            [8] => Array
+                (
+                    [id] => 22
+                    [nombre] => 6
+                    [descripcion] => 6
+                    [precio] => 6
+                    [imagen] => /proyectoNuevo/img/productos/camara_productos.png
+                    [stock] => 0
+                )
+
+        )
+
+)
+
+[16-Dec-2025 22:03:51 Europe/Berlin] Producto ID: 1 - Ruta de imagen: /proyectoNuevo/img/productos/6941bdde0b995.png
+[16-Dec-2025 22:03:51 Europe/Berlin] Producto ID: 15 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:03:51 Europe/Berlin] Producto ID: 16 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:03:51 Europe/Berlin] Producto ID: 17 - Ruta de imagen: /proyectoNuevo/img/productos/auriculares_vincha.png
+[16-Dec-2025 22:03:51 Europe/Berlin] Producto ID: 18 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:03:51 Europe/Berlin] Producto ID: 19 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 22:03:51 Europe/Berlin] Producto ID: 20 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:03:51 Europe/Berlin] Producto ID: 21 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 22:03:51 Europe/Berlin] Producto ID: 22 - Ruta de imagen: /proyectoNuevo/img/productos/camara_productos.png
+[16-Dec-2025 22:03:51 Europe/Berlin] Sending JSON response: Array
+(
+    [success] => 1
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [nombre] => buzzer gigante
+                    [descripcion] => auriculares
+                    [precio] => 1233434
+                    [imagen] => /proyectoNuevo/img/productos/6941bdde0b995.png
+                    [stock] => 0
+                )
+
+            [1] => Array
+                (
+                    [id] => 15
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [2] => Array
+                (
+                    [id] => 16
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [3] => Array
+                (
+                    [id] => 17
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/auriculares_vincha.png
+                    [stock] => 0
+                )
+
+            [4] => Array
+                (
+                    [id] => 18
+                    [nombre] => 2
+                    [descripcion] => 2
+                    [precio] => 2
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [5] => Array
+                (
+                    [id] => 19
+                    [nombre] => 3
+                    [descripcion] => 3
+                    [precio] => 3
+                    [imagen] => /proyectoNuevo/img/productos/parlante.png
+                    [stock] => 0
+                )
+
+            [6] => Array
+                (
+                    [id] => 20
+                    [nombre] => 4
+                    [descripcion] => 4
+                    [precio] => 4
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [7] => Array
+                (
+                    [id] => 21
+                    [nombre] => 5
+                    [descripcion] => 5
+                    [precio] => 5
+                    [imagen] => /proyectoNuevo/img/productos/parlante.png
+                    [stock] => 0
+                )
+
+            [8] => Array
+                (
+                    [id] => 22
+                    [nombre] => 6
+                    [descripcion] => 6
+                    [precio] => 6
+                    [imagen] => /proyectoNuevo/img/productos/camara_productos.png
+                    [stock] => 0
+                )
+
+        )
+
+)
+
+[16-Dec-2025 22:03:52 Europe/Berlin] Producto ID: 1 - Ruta de imagen: /proyectoNuevo/img/productos/6941bdde0b995.png
+[16-Dec-2025 22:03:52 Europe/Berlin] Producto ID: 15 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:03:52 Europe/Berlin] Producto ID: 16 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:03:52 Europe/Berlin] Producto ID: 17 - Ruta de imagen: /proyectoNuevo/img/productos/auriculares_vincha.png
+[16-Dec-2025 22:03:52 Europe/Berlin] Producto ID: 18 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:03:52 Europe/Berlin] Producto ID: 19 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 22:03:52 Europe/Berlin] Producto ID: 20 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:03:52 Europe/Berlin] Producto ID: 21 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 22:03:52 Europe/Berlin] Producto ID: 22 - Ruta de imagen: /proyectoNuevo/img/productos/camara_productos.png
+[16-Dec-2025 22:03:52 Europe/Berlin] Sending JSON response: Array
+(
+    [success] => 1
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [nombre] => buzzer gigante
+                    [descripcion] => auriculares
+                    [precio] => 1233434
+                    [imagen] => /proyectoNuevo/img/productos/6941bdde0b995.png
+                    [stock] => 0
+                )
+
+            [1] => Array
+                (
+                    [id] => 15
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [2] => Array
+                (
+                    [id] => 16
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [3] => Array
+                (
+                    [id] => 17
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/auriculares_vincha.png
+                    [stock] => 0
+                )
+
+            [4] => Array
+                (
+                    [id] => 18
+                    [nombre] => 2
+                    [descripcion] => 2
+                    [precio] => 2
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [5] => Array
+                (
+                    [id] => 19
+                    [nombre] => 3
+                    [descripcion] => 3
+                    [precio] => 3
+                    [imagen] => /proyectoNuevo/img/productos/parlante.png
+                    [stock] => 0
+                )
+
+            [6] => Array
+                (
+                    [id] => 20
+                    [nombre] => 4
+                    [descripcion] => 4
+                    [precio] => 4
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [7] => Array
+                (
+                    [id] => 21
+                    [nombre] => 5
+                    [descripcion] => 5
+                    [precio] => 5
+                    [imagen] => /proyectoNuevo/img/productos/parlante.png
+                    [stock] => 0
+                )
+
+            [8] => Array
+                (
+                    [id] => 22
+                    [nombre] => 6
+                    [descripcion] => 6
+                    [precio] => 6
+                    [imagen] => /proyectoNuevo/img/productos/camara_productos.png
+                    [stock] => 0
+                )
+
+        )
+
+)
+
+[16-Dec-2025 22:07:16 Europe/Berlin] Producto ID: 1 - Ruta de imagen: /proyectoNuevo/img/productos/6941bdde0b995.png
+[16-Dec-2025 22:07:16 Europe/Berlin] Producto ID: 15 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:07:16 Europe/Berlin] Producto ID: 16 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:07:16 Europe/Berlin] Producto ID: 17 - Ruta de imagen: /proyectoNuevo/img/productos/auriculares_vincha.png
+[16-Dec-2025 22:07:16 Europe/Berlin] Producto ID: 18 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:07:16 Europe/Berlin] Producto ID: 19 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 22:07:16 Europe/Berlin] Producto ID: 20 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:07:16 Europe/Berlin] Producto ID: 21 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 22:07:16 Europe/Berlin] Producto ID: 22 - Ruta de imagen: /proyectoNuevo/img/productos/camara_productos.png
+[16-Dec-2025 22:07:16 Europe/Berlin] Sending JSON response: Array
+(
+    [success] => 1
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [nombre] => buzzer gigante
+                    [descripcion] => auriculares
+                    [precio] => 1233434
+                    [imagen] => /proyectoNuevo/img/productos/6941bdde0b995.png
+                    [stock] => 0
+                )
+
+            [1] => Array
+                (
+                    [id] => 15
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [2] => Array
+                (
+                    [id] => 16
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [3] => Array
+                (
+                    [id] => 17
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/auriculares_vincha.png
+                    [stock] => 0
+                )
+
+            [4] => Array
+                (
+                    [id] => 18
+                    [nombre] => 2
+                    [descripcion] => 2
+                    [precio] => 2
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [5] => Array
+                (
+                    [id] => 19
+                    [nombre] => 3
+                    [descripcion] => 3
+                    [precio] => 3
+                    [imagen] => /proyectoNuevo/img/productos/parlante.png
+                    [stock] => 0
+                )
+
+            [6] => Array
+                (
+                    [id] => 20
+                    [nombre] => 4
+                    [descripcion] => 4
+                    [precio] => 4
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [7] => Array
+                (
+                    [id] => 21
+                    [nombre] => 5
+                    [descripcion] => 5
+                    [precio] => 5
+                    [imagen] => /proyectoNuevo/img/productos/parlante.png
+                    [stock] => 0
+                )
+
+            [8] => Array
+                (
+                    [id] => 22
+                    [nombre] => 6
+                    [descripcion] => 6
+                    [precio] => 6
+                    [imagen] => /proyectoNuevo/img/productos/camara_productos.png
+                    [stock] => 0
+                )
+
+        )
+
+)
+
+[16-Dec-2025 22:07:17 Europe/Berlin] Producto ID: 1 - Ruta de imagen: /proyectoNuevo/img/productos/6941bdde0b995.png
+[16-Dec-2025 22:07:17 Europe/Berlin] Producto ID: 15 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:07:17 Europe/Berlin] Producto ID: 16 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:07:17 Europe/Berlin] Producto ID: 17 - Ruta de imagen: /proyectoNuevo/img/productos/auriculares_vincha.png
+[16-Dec-2025 22:07:17 Europe/Berlin] Producto ID: 18 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:07:17 Europe/Berlin] Producto ID: 19 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 22:07:17 Europe/Berlin] Producto ID: 20 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:07:17 Europe/Berlin] Producto ID: 21 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 22:07:17 Europe/Berlin] Producto ID: 22 - Ruta de imagen: /proyectoNuevo/img/productos/camara_productos.png
+[16-Dec-2025 22:07:17 Europe/Berlin] Sending JSON response: Array
+(
+    [success] => 1
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [nombre] => buzzer gigante
+                    [descripcion] => auriculares
+                    [precio] => 1233434
+                    [imagen] => /proyectoNuevo/img/productos/6941bdde0b995.png
+                    [stock] => 0
+                )
+
+            [1] => Array
+                (
+                    [id] => 15
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [2] => Array
+                (
+                    [id] => 16
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [3] => Array
+                (
+                    [id] => 17
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/auriculares_vincha.png
+                    [stock] => 0
+                )
+
+            [4] => Array
+                (
+                    [id] => 18
+                    [nombre] => 2
+                    [descripcion] => 2
+                    [precio] => 2
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [5] => Array
+                (
+                    [id] => 19
+                    [nombre] => 3
+                    [descripcion] => 3
+                    [precio] => 3
+                    [imagen] => /proyectoNuevo/img/productos/parlante.png
+                    [stock] => 0
+                )
+
+            [6] => Array
+                (
+                    [id] => 20
+                    [nombre] => 4
+                    [descripcion] => 4
+                    [precio] => 4
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [7] => Array
+                (
+                    [id] => 21
+                    [nombre] => 5
+                    [descripcion] => 5
+                    [precio] => 5
+                    [imagen] => /proyectoNuevo/img/productos/parlante.png
+                    [stock] => 0
+                )
+
+            [8] => Array
+                (
+                    [id] => 22
+                    [nombre] => 6
+                    [descripcion] => 6
+                    [precio] => 6
+                    [imagen] => /proyectoNuevo/img/productos/camara_productos.png
+                    [stock] => 0
+                )
+
+        )
+
+)
+
+[16-Dec-2025 22:07:48 Europe/Berlin] Producto ID: 1 - Ruta de imagen: /proyectoNuevo/img/productos/6941bdde0b995.png
+[16-Dec-2025 22:07:48 Europe/Berlin] Producto ID: 15 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:07:48 Europe/Berlin] Producto ID: 16 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:07:48 Europe/Berlin] Producto ID: 17 - Ruta de imagen: /proyectoNuevo/img/productos/auriculares_vincha.png
+[16-Dec-2025 22:07:48 Europe/Berlin] Producto ID: 18 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:07:48 Europe/Berlin] Producto ID: 19 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 22:07:48 Europe/Berlin] Producto ID: 20 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:07:48 Europe/Berlin] Producto ID: 21 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 22:07:48 Europe/Berlin] Producto ID: 22 - Ruta de imagen: /proyectoNuevo/img/productos/camara_productos.png
+[16-Dec-2025 22:07:48 Europe/Berlin] Sending JSON response: Array
+(
+    [success] => 1
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [nombre] => buzzer gigante
+                    [descripcion] => auriculares
+                    [precio] => 1233434
+                    [imagen] => /proyectoNuevo/img/productos/6941bdde0b995.png
+                    [stock] => 0
+                )
+
+            [1] => Array
+                (
+                    [id] => 15
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [2] => Array
+                (
+                    [id] => 16
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [3] => Array
+                (
+                    [id] => 17
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/auriculares_vincha.png
+                    [stock] => 0
+                )
+
+            [4] => Array
+                (
+                    [id] => 18
+                    [nombre] => 2
+                    [descripcion] => 2
+                    [precio] => 2
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [5] => Array
+                (
+                    [id] => 19
+                    [nombre] => 3
+                    [descripcion] => 3
+                    [precio] => 3
+                    [imagen] => /proyectoNuevo/img/productos/parlante.png
+                    [stock] => 0
+                )
+
+            [6] => Array
+                (
+                    [id] => 20
+                    [nombre] => 4
+                    [descripcion] => 4
+                    [precio] => 4
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [7] => Array
+                (
+                    [id] => 21
+                    [nombre] => 5
+                    [descripcion] => 5
+                    [precio] => 5
+                    [imagen] => /proyectoNuevo/img/productos/parlante.png
+                    [stock] => 0
+                )
+
+            [8] => Array
+                (
+                    [id] => 22
+                    [nombre] => 6
+                    [descripcion] => 6
+                    [precio] => 6
+                    [imagen] => /proyectoNuevo/img/productos/camara_productos.png
+                    [stock] => 0
+                )
+
+        )
+
+)
+
+[16-Dec-2025 22:08:56 Europe/Berlin] Producto ID: 1 - Ruta de imagen: /proyectoNuevo/img/productos/6941bdde0b995.png
+[16-Dec-2025 22:08:56 Europe/Berlin] Producto ID: 15 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:08:56 Europe/Berlin] Producto ID: 16 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:08:56 Europe/Berlin] Producto ID: 17 - Ruta de imagen: /proyectoNuevo/img/productos/auriculares_vincha.png
+[16-Dec-2025 22:08:56 Europe/Berlin] Producto ID: 18 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:08:56 Europe/Berlin] Producto ID: 19 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 22:08:56 Europe/Berlin] Producto ID: 20 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:08:56 Europe/Berlin] Producto ID: 21 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 22:08:56 Europe/Berlin] Producto ID: 22 - Ruta de imagen: /proyectoNuevo/img/productos/camara_productos.png
+[16-Dec-2025 22:08:56 Europe/Berlin] Sending JSON response: Array
+(
+    [success] => 1
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [nombre] => buzzer gigante
+                    [descripcion] => auriculares
+                    [precio] => 1233434
+                    [imagen] => /proyectoNuevo/img/productos/6941bdde0b995.png
+                    [stock] => 0
+                )
+
+            [1] => Array
+                (
+                    [id] => 15
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [2] => Array
+                (
+                    [id] => 16
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [3] => Array
+                (
+                    [id] => 17
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/auriculares_vincha.png
+                    [stock] => 0
+                )
+
+            [4] => Array
+                (
+                    [id] => 18
+                    [nombre] => 2
+                    [descripcion] => 2
+                    [precio] => 2
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [5] => Array
+                (
+                    [id] => 19
+                    [nombre] => 3
+                    [descripcion] => 3
+                    [precio] => 3
+                    [imagen] => /proyectoNuevo/img/productos/parlante.png
+                    [stock] => 0
+                )
+
+            [6] => Array
+                (
+                    [id] => 20
+                    [nombre] => 4
+                    [descripcion] => 4
+                    [precio] => 4
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [7] => Array
+                (
+                    [id] => 21
+                    [nombre] => 5
+                    [descripcion] => 5
+                    [precio] => 5
+                    [imagen] => /proyectoNuevo/img/productos/parlante.png
+                    [stock] => 0
+                )
+
+            [8] => Array
+                (
+                    [id] => 22
+                    [nombre] => 6
+                    [descripcion] => 6
+                    [precio] => 6
+                    [imagen] => /proyectoNuevo/img/productos/camara_productos.png
+                    [stock] => 0
+                )
+
+        )
+
+)
+
+[16-Dec-2025 22:09:07 Europe/Berlin] Producto ID: 1 - Ruta de imagen: /proyectoNuevo/img/productos/6941bdde0b995.png
+[16-Dec-2025 22:09:07 Europe/Berlin] Producto ID: 15 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:09:07 Europe/Berlin] Producto ID: 16 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:09:07 Europe/Berlin] Producto ID: 17 - Ruta de imagen: /proyectoNuevo/img/productos/auriculares_vincha.png
+[16-Dec-2025 22:09:07 Europe/Berlin] Producto ID: 18 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:09:07 Europe/Berlin] Producto ID: 19 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 22:09:07 Europe/Berlin] Producto ID: 20 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:09:07 Europe/Berlin] Producto ID: 21 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 22:09:07 Europe/Berlin] Producto ID: 22 - Ruta de imagen: /proyectoNuevo/img/productos/camara_productos.png
+[16-Dec-2025 22:09:07 Europe/Berlin] Sending JSON response: Array
+(
+    [success] => 1
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [nombre] => buzzer gigante
+                    [descripcion] => auriculares
+                    [precio] => 1233434
+                    [imagen] => /proyectoNuevo/img/productos/6941bdde0b995.png
+                    [stock] => 0
+                )
+
+            [1] => Array
+                (
+                    [id] => 15
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [2] => Array
+                (
+                    [id] => 16
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [3] => Array
+                (
+                    [id] => 17
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/auriculares_vincha.png
+                    [stock] => 0
+                )
+
+            [4] => Array
+                (
+                    [id] => 18
+                    [nombre] => 2
+                    [descripcion] => 2
+                    [precio] => 2
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [5] => Array
+                (
+                    [id] => 19
+                    [nombre] => 3
+                    [descripcion] => 3
+                    [precio] => 3
+                    [imagen] => /proyectoNuevo/img/productos/parlante.png
+                    [stock] => 0
+                )
+
+            [6] => Array
+                (
+                    [id] => 20
+                    [nombre] => 4
+                    [descripcion] => 4
+                    [precio] => 4
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [7] => Array
+                (
+                    [id] => 21
+                    [nombre] => 5
+                    [descripcion] => 5
+                    [precio] => 5
+                    [imagen] => /proyectoNuevo/img/productos/parlante.png
+                    [stock] => 0
+                )
+
+            [8] => Array
+                (
+                    [id] => 22
+                    [nombre] => 6
+                    [descripcion] => 6
+                    [precio] => 6
+                    [imagen] => /proyectoNuevo/img/productos/camara_productos.png
+                    [stock] => 0
+                )
+
+        )
+
+)
+
+[16-Dec-2025 22:09:11 Europe/Berlin] Producto ID: 1 - Ruta de imagen: /proyectoNuevo/img/productos/6941bdde0b995.png
+[16-Dec-2025 22:09:11 Europe/Berlin] Producto ID: 15 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:09:11 Europe/Berlin] Producto ID: 16 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:09:11 Europe/Berlin] Producto ID: 17 - Ruta de imagen: /proyectoNuevo/img/productos/auriculares_vincha.png
+[16-Dec-2025 22:09:11 Europe/Berlin] Producto ID: 18 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:09:11 Europe/Berlin] Producto ID: 19 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 22:09:11 Europe/Berlin] Producto ID: 20 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:09:11 Europe/Berlin] Producto ID: 21 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 22:09:11 Europe/Berlin] Producto ID: 22 - Ruta de imagen: /proyectoNuevo/img/productos/camara_productos.png
+[16-Dec-2025 22:09:11 Europe/Berlin] Sending JSON response: Array
+(
+    [success] => 1
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [nombre] => buzzer gigante
+                    [descripcion] => auriculares
+                    [precio] => 1233434
+                    [imagen] => /proyectoNuevo/img/productos/6941bdde0b995.png
+                    [stock] => 0
+                )
+
+            [1] => Array
+                (
+                    [id] => 15
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [2] => Array
+                (
+                    [id] => 16
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [3] => Array
+                (
+                    [id] => 17
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/auriculares_vincha.png
+                    [stock] => 0
+                )
+
+            [4] => Array
+                (
+                    [id] => 18
+                    [nombre] => 2
+                    [descripcion] => 2
+                    [precio] => 2
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [5] => Array
+                (
+                    [id] => 19
+                    [nombre] => 3
+                    [descripcion] => 3
+                    [precio] => 3
+                    [imagen] => /proyectoNuevo/img/productos/parlante.png
+                    [stock] => 0
+                )
+
+            [6] => Array
+                (
+                    [id] => 20
+                    [nombre] => 4
+                    [descripcion] => 4
+                    [precio] => 4
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [7] => Array
+                (
+                    [id] => 21
+                    [nombre] => 5
+                    [descripcion] => 5
+                    [precio] => 5
+                    [imagen] => /proyectoNuevo/img/productos/parlante.png
+                    [stock] => 0
+                )
+
+            [8] => Array
+                (
+                    [id] => 22
+                    [nombre] => 6
+                    [descripcion] => 6
+                    [precio] => 6
+                    [imagen] => /proyectoNuevo/img/productos/camara_productos.png
+                    [stock] => 0
+                )
+
+        )
+
+)
+
+[16-Dec-2025 22:09:34 Europe/Berlin] Producto ID: 1 - Ruta de imagen: /proyectoNuevo/img/productos/6941bdde0b995.png
+[16-Dec-2025 22:09:34 Europe/Berlin] Producto ID: 15 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:09:34 Europe/Berlin] Producto ID: 16 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:09:34 Europe/Berlin] Producto ID: 17 - Ruta de imagen: /proyectoNuevo/img/productos/auriculares_vincha.png
+[16-Dec-2025 22:09:34 Europe/Berlin] Producto ID: 18 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:09:34 Europe/Berlin] Producto ID: 19 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 22:09:34 Europe/Berlin] Producto ID: 20 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:09:34 Europe/Berlin] Producto ID: 21 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 22:09:34 Europe/Berlin] Producto ID: 22 - Ruta de imagen: /proyectoNuevo/img/productos/camara_productos.png
+[16-Dec-2025 22:09:34 Europe/Berlin] Sending JSON response: Array
+(
+    [success] => 1
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [nombre] => buzzer gigante
+                    [descripcion] => auriculares
+                    [precio] => 1233434
+                    [imagen] => /proyectoNuevo/img/productos/6941bdde0b995.png
+                    [stock] => 0
+                )
+
+            [1] => Array
+                (
+                    [id] => 15
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [2] => Array
+                (
+                    [id] => 16
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [3] => Array
+                (
+                    [id] => 17
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/auriculares_vincha.png
+                    [stock] => 0
+                )
+
+            [4] => Array
+                (
+                    [id] => 18
+                    [nombre] => 2
+                    [descripcion] => 2
+                    [precio] => 2
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [5] => Array
+                (
+                    [id] => 19
+                    [nombre] => 3
+                    [descripcion] => 3
+                    [precio] => 3
+                    [imagen] => /proyectoNuevo/img/productos/parlante.png
+                    [stock] => 0
+                )
+
+            [6] => Array
+                (
+                    [id] => 20
+                    [nombre] => 4
+                    [descripcion] => 4
+                    [precio] => 4
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [7] => Array
+                (
+                    [id] => 21
+                    [nombre] => 5
+                    [descripcion] => 5
+                    [precio] => 5
+                    [imagen] => /proyectoNuevo/img/productos/parlante.png
+                    [stock] => 0
+                )
+
+            [8] => Array
+                (
+                    [id] => 22
+                    [nombre] => 6
+                    [descripcion] => 6
+                    [precio] => 6
+                    [imagen] => /proyectoNuevo/img/productos/camara_productos.png
+                    [stock] => 0
+                )
+
+        )
+
+)
+
+[16-Dec-2025 22:09:59 Europe/Berlin] Producto ID: 1 - Ruta de imagen: /proyectoNuevo/img/productos/6941bdde0b995.png
+[16-Dec-2025 22:09:59 Europe/Berlin] Producto ID: 15 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:09:59 Europe/Berlin] Producto ID: 16 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:09:59 Europe/Berlin] Producto ID: 17 - Ruta de imagen: /proyectoNuevo/img/productos/auriculares_vincha.png
+[16-Dec-2025 22:09:59 Europe/Berlin] Producto ID: 18 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:09:59 Europe/Berlin] Producto ID: 19 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 22:09:59 Europe/Berlin] Producto ID: 20 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:09:59 Europe/Berlin] Producto ID: 21 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 22:09:59 Europe/Berlin] Producto ID: 22 - Ruta de imagen: /proyectoNuevo/img/productos/camara_productos.png
+[16-Dec-2025 22:09:59 Europe/Berlin] Sending JSON response: Array
+(
+    [success] => 1
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [nombre] => buzzer gigante
+                    [descripcion] => auriculares
+                    [precio] => 1233434
+                    [imagen] => /proyectoNuevo/img/productos/6941bdde0b995.png
+                    [stock] => 0
+                )
+
+            [1] => Array
+                (
+                    [id] => 15
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [2] => Array
+                (
+                    [id] => 16
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [3] => Array
+                (
+                    [id] => 17
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/auriculares_vincha.png
+                    [stock] => 0
+                )
+
+            [4] => Array
+                (
+                    [id] => 18
+                    [nombre] => 2
+                    [descripcion] => 2
+                    [precio] => 2
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [5] => Array
+                (
+                    [id] => 19
+                    [nombre] => 3
+                    [descripcion] => 3
+                    [precio] => 3
+                    [imagen] => /proyectoNuevo/img/productos/parlante.png
+                    [stock] => 0
+                )
+
+            [6] => Array
+                (
+                    [id] => 20
+                    [nombre] => 4
+                    [descripcion] => 4
+                    [precio] => 4
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [7] => Array
+                (
+                    [id] => 21
+                    [nombre] => 5
+                    [descripcion] => 5
+                    [precio] => 5
+                    [imagen] => /proyectoNuevo/img/productos/parlante.png
+                    [stock] => 0
+                )
+
+            [8] => Array
+                (
+                    [id] => 22
+                    [nombre] => 6
+                    [descripcion] => 6
+                    [precio] => 6
+                    [imagen] => /proyectoNuevo/img/productos/camara_productos.png
+                    [stock] => 0
+                )
+
+        )
+
+)
+
+[16-Dec-2025 22:10:01 Europe/Berlin] Producto ID: 1 - Ruta de imagen: /proyectoNuevo/img/productos/6941bdde0b995.png
+[16-Dec-2025 22:10:01 Europe/Berlin] Producto ID: 15 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:10:01 Europe/Berlin] Producto ID: 16 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:10:01 Europe/Berlin] Producto ID: 17 - Ruta de imagen: /proyectoNuevo/img/productos/auriculares_vincha.png
+[16-Dec-2025 22:10:01 Europe/Berlin] Producto ID: 18 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:10:01 Europe/Berlin] Producto ID: 19 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 22:10:01 Europe/Berlin] Producto ID: 20 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:10:01 Europe/Berlin] Producto ID: 21 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 22:10:01 Europe/Berlin] Producto ID: 22 - Ruta de imagen: /proyectoNuevo/img/productos/camara_productos.png
+[16-Dec-2025 22:10:01 Europe/Berlin] Sending JSON response: Array
+(
+    [success] => 1
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [nombre] => buzzer gigante
+                    [descripcion] => auriculares
+                    [precio] => 1233434
+                    [imagen] => /proyectoNuevo/img/productos/6941bdde0b995.png
+                    [stock] => 0
+                )
+
+            [1] => Array
+                (
+                    [id] => 15
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [2] => Array
+                (
+                    [id] => 16
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [3] => Array
+                (
+                    [id] => 17
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/auriculares_vincha.png
+                    [stock] => 0
+                )
+
+            [4] => Array
+                (
+                    [id] => 18
+                    [nombre] => 2
+                    [descripcion] => 2
+                    [precio] => 2
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [5] => Array
+                (
+                    [id] => 19
+                    [nombre] => 3
+                    [descripcion] => 3
+                    [precio] => 3
+                    [imagen] => /proyectoNuevo/img/productos/parlante.png
+                    [stock] => 0
+                )
+
+            [6] => Array
+                (
+                    [id] => 20
+                    [nombre] => 4
+                    [descripcion] => 4
+                    [precio] => 4
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [7] => Array
+                (
+                    [id] => 21
+                    [nombre] => 5
+                    [descripcion] => 5
+                    [precio] => 5
+                    [imagen] => /proyectoNuevo/img/productos/parlante.png
+                    [stock] => 0
+                )
+
+            [8] => Array
+                (
+                    [id] => 22
+                    [nombre] => 6
+                    [descripcion] => 6
+                    [precio] => 6
+                    [imagen] => /proyectoNuevo/img/productos/camara_productos.png
+                    [stock] => 0
+                )
+
+        )
+
+)
+
+[16-Dec-2025 22:11:27 Europe/Berlin] Producto ID: 1 - Ruta de imagen: /proyectoNuevo/img/productos/6941bdde0b995.png
+[16-Dec-2025 22:11:27 Europe/Berlin] Producto ID: 15 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:11:27 Europe/Berlin] Producto ID: 16 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:11:27 Europe/Berlin] Producto ID: 17 - Ruta de imagen: /proyectoNuevo/img/productos/auriculares_vincha.png
+[16-Dec-2025 22:11:27 Europe/Berlin] Producto ID: 18 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:11:27 Europe/Berlin] Producto ID: 19 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 22:11:27 Europe/Berlin] Producto ID: 20 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:11:27 Europe/Berlin] Producto ID: 21 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 22:11:27 Europe/Berlin] Producto ID: 22 - Ruta de imagen: /proyectoNuevo/img/productos/camara_productos.png
+[16-Dec-2025 22:11:27 Europe/Berlin] Sending JSON response: Array
+(
+    [success] => 1
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [nombre] => buzzer gigante
+                    [descripcion] => auriculares
+                    [precio] => 1233434
+                    [imagen] => /proyectoNuevo/img/productos/6941bdde0b995.png
+                    [stock] => 0
+                )
+
+            [1] => Array
+                (
+                    [id] => 15
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [2] => Array
+                (
+                    [id] => 16
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [3] => Array
+                (
+                    [id] => 17
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/auriculares_vincha.png
+                    [stock] => 0
+                )
+
+            [4] => Array
+                (
+                    [id] => 18
+                    [nombre] => 2
+                    [descripcion] => 2
+                    [precio] => 2
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [5] => Array
+                (
+                    [id] => 19
+                    [nombre] => 3
+                    [descripcion] => 3
+                    [precio] => 3
+                    [imagen] => /proyectoNuevo/img/productos/parlante.png
+                    [stock] => 0
+                )
+
+            [6] => Array
+                (
+                    [id] => 20
+                    [nombre] => 4
+                    [descripcion] => 4
+                    [precio] => 4
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [7] => Array
+                (
+                    [id] => 21
+                    [nombre] => 5
+                    [descripcion] => 5
+                    [precio] => 5
+                    [imagen] => /proyectoNuevo/img/productos/parlante.png
+                    [stock] => 0
+                )
+
+            [8] => Array
+                (
+                    [id] => 22
+                    [nombre] => 6
+                    [descripcion] => 6
+                    [precio] => 6
+                    [imagen] => /proyectoNuevo/img/productos/camara_productos.png
+                    [stock] => 0
+                )
+
+        )
+
+)
+
+[16-Dec-2025 22:12:09 Europe/Berlin] Producto ID: 1 - Ruta de imagen: /proyectoNuevo/img/productos/6941bdde0b995.png
+[16-Dec-2025 22:12:09 Europe/Berlin] Producto ID: 15 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:12:09 Europe/Berlin] Producto ID: 16 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:12:09 Europe/Berlin] Producto ID: 17 - Ruta de imagen: /proyectoNuevo/img/productos/auriculares_vincha.png
+[16-Dec-2025 22:12:09 Europe/Berlin] Producto ID: 18 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:12:09 Europe/Berlin] Producto ID: 19 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 22:12:09 Europe/Berlin] Producto ID: 20 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:12:09 Europe/Berlin] Producto ID: 21 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 22:12:09 Europe/Berlin] Producto ID: 22 - Ruta de imagen: /proyectoNuevo/img/productos/camara_productos.png
+[16-Dec-2025 22:12:09 Europe/Berlin] Sending JSON response: Array
+(
+    [success] => 1
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [nombre] => buzzer gigante
+                    [descripcion] => auriculares
+                    [precio] => 1233434
+                    [imagen] => /proyectoNuevo/img/productos/6941bdde0b995.png
+                    [stock] => 0
+                )
+
+            [1] => Array
+                (
+                    [id] => 15
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [2] => Array
+                (
+                    [id] => 16
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [3] => Array
+                (
+                    [id] => 17
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/auriculares_vincha.png
+                    [stock] => 0
+                )
+
+            [4] => Array
+                (
+                    [id] => 18
+                    [nombre] => 2
+                    [descripcion] => 2
+                    [precio] => 2
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [5] => Array
+                (
+                    [id] => 19
+                    [nombre] => 3
+                    [descripcion] => 3
+                    [precio] => 3
+                    [imagen] => /proyectoNuevo/img/productos/parlante.png
+                    [stock] => 0
+                )
+
+            [6] => Array
+                (
+                    [id] => 20
+                    [nombre] => 4
+                    [descripcion] => 4
+                    [precio] => 4
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [7] => Array
+                (
+                    [id] => 21
+                    [nombre] => 5
+                    [descripcion] => 5
+                    [precio] => 5
+                    [imagen] => /proyectoNuevo/img/productos/parlante.png
+                    [stock] => 0
+                )
+
+            [8] => Array
+                (
+                    [id] => 22
+                    [nombre] => 6
+                    [descripcion] => 6
+                    [precio] => 6
+                    [imagen] => /proyectoNuevo/img/productos/camara_productos.png
+                    [stock] => 0
+                )
+
+        )
+
+)
+
+[16-Dec-2025 22:14:40 Europe/Berlin] PHP Warning:  require_once(conexion.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\proyectoNuevo\phpControlador\obtener_productos.php on line 15
+[16-Dec-2025 22:14:40 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'conexion.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\proyectoNuevo\phpControlador\obtener_productos.php:15
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\proyectoNuevo\phpControlador\obtener_productos.php on line 15
+[16-Dec-2025 22:14:55 Europe/Berlin] PHP Warning:  require_once(conexion.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\proyectoNuevo\phpControlador\obtener_productos.php on line 15
+[16-Dec-2025 22:14:55 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'conexion.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\proyectoNuevo\phpControlador\obtener_productos.php:15
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\proyectoNuevo\phpControlador\obtener_productos.php on line 15
+[16-Dec-2025 22:15:10 Europe/Berlin] PHP Warning:  require_once(conexion.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\proyectoNuevo\phpControlador\obtener_productos.php on line 15
+[16-Dec-2025 22:15:10 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'conexion.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\proyectoNuevo\phpControlador\obtener_productos.php:15
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\proyectoNuevo\phpControlador\obtener_productos.php on line 15
+[16-Dec-2025 22:15:16 Europe/Berlin] Producto ID: 1 - Ruta de imagen: /proyectoNuevo/img/productos/6941bdde0b995.png
+[16-Dec-2025 22:15:16 Europe/Berlin] Producto ID: 15 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:15:16 Europe/Berlin] Producto ID: 16 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:15:16 Europe/Berlin] Producto ID: 17 - Ruta de imagen: /proyectoNuevo/img/productos/auriculares_vincha.png
+[16-Dec-2025 22:15:16 Europe/Berlin] Producto ID: 18 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:15:16 Europe/Berlin] Producto ID: 19 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 22:15:16 Europe/Berlin] Producto ID: 20 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:15:16 Europe/Berlin] Producto ID: 21 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 22:15:16 Europe/Berlin] Producto ID: 22 - Ruta de imagen: /proyectoNuevo/img/productos/camara_productos.png
+[16-Dec-2025 22:15:16 Europe/Berlin] Sending JSON response: Array
+(
+    [success] => 1
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [nombre] => buzzer gigante
+                    [descripcion] => auriculares
+                    [precio] => 1233434
+                    [imagen] => /proyectoNuevo/img/productos/6941bdde0b995.png
+                    [stock] => 0
+                )
+
+            [1] => Array
+                (
+                    [id] => 15
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [2] => Array
+                (
+                    [id] => 16
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [3] => Array
+                (
+                    [id] => 17
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/auriculares_vincha.png
+                    [stock] => 0
+                )
+
+            [4] => Array
+                (
+                    [id] => 18
+                    [nombre] => 2
+                    [descripcion] => 2
+                    [precio] => 2
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [5] => Array
+                (
+                    [id] => 19
+                    [nombre] => 3
+                    [descripcion] => 3
+                    [precio] => 3
+                    [imagen] => /proyectoNuevo/img/productos/parlante.png
+                    [stock] => 0
+                )
+
+            [6] => Array
+                (
+                    [id] => 20
+                    [nombre] => 4
+                    [descripcion] => 4
+                    [precio] => 4
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [7] => Array
+                (
+                    [id] => 21
+                    [nombre] => 5
+                    [descripcion] => 5
+                    [precio] => 5
+                    [imagen] => /proyectoNuevo/img/productos/parlante.png
+                    [stock] => 0
+                )
+
+            [8] => Array
+                (
+                    [id] => 22
+                    [nombre] => 6
+                    [descripcion] => 6
+                    [precio] => 6
+                    [imagen] => /proyectoNuevo/img/productos/camara_productos.png
+                    [stock] => 0
+                )
+
+        )
+
+)
+
+[16-Dec-2025 22:15:34 Europe/Berlin] Producto ID: 1 - Ruta de imagen: /proyectoNuevo/img/productos/6941bdde0b995.png
+[16-Dec-2025 22:15:34 Europe/Berlin] Producto ID: 15 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:15:34 Europe/Berlin] Producto ID: 16 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:15:34 Europe/Berlin] Producto ID: 17 - Ruta de imagen: /proyectoNuevo/img/productos/auriculares_vincha.png
+[16-Dec-2025 22:15:34 Europe/Berlin] Producto ID: 18 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:15:34 Europe/Berlin] Producto ID: 19 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 22:15:34 Europe/Berlin] Producto ID: 20 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:15:34 Europe/Berlin] Producto ID: 21 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 22:15:34 Europe/Berlin] Producto ID: 22 - Ruta de imagen: /proyectoNuevo/img/productos/camara_productos.png
+[16-Dec-2025 22:15:34 Europe/Berlin] Sending JSON response: Array
+(
+    [success] => 1
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [nombre] => buzzer gigante
+                    [descripcion] => auriculares
+                    [precio] => 1233434
+                    [imagen] => /proyectoNuevo/img/productos/6941bdde0b995.png
+                    [stock] => 0
+                )
+
+            [1] => Array
+                (
+                    [id] => 15
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [2] => Array
+                (
+                    [id] => 16
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [3] => Array
+                (
+                    [id] => 17
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/auriculares_vincha.png
+                    [stock] => 0
+                )
+
+            [4] => Array
+                (
+                    [id] => 18
+                    [nombre] => 2
+                    [descripcion] => 2
+                    [precio] => 2
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [5] => Array
+                (
+                    [id] => 19
+                    [nombre] => 3
+                    [descripcion] => 3
+                    [precio] => 3
+                    [imagen] => /proyectoNuevo/img/productos/parlante.png
+                    [stock] => 0
+                )
+
+            [6] => Array
+                (
+                    [id] => 20
+                    [nombre] => 4
+                    [descripcion] => 4
+                    [precio] => 4
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [7] => Array
+                (
+                    [id] => 21
+                    [nombre] => 5
+                    [descripcion] => 5
+                    [precio] => 5
+                    [imagen] => /proyectoNuevo/img/productos/parlante.png
+                    [stock] => 0
+                )
+
+            [8] => Array
+                (
+                    [id] => 22
+                    [nombre] => 6
+                    [descripcion] => 6
+                    [precio] => 6
+                    [imagen] => /proyectoNuevo/img/productos/camara_productos.png
+                    [stock] => 0
+                )
+
+        )
+
+)
+
+[16-Dec-2025 22:16:28 Europe/Berlin] Producto ID: 1 - Ruta de imagen: /proyectoNuevo/img/productos/6941bdde0b995.png
+[16-Dec-2025 22:16:28 Europe/Berlin] Producto ID: 15 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:16:28 Europe/Berlin] Producto ID: 16 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:16:28 Europe/Berlin] Producto ID: 17 - Ruta de imagen: /proyectoNuevo/img/productos/auriculares_vincha.png
+[16-Dec-2025 22:16:28 Europe/Berlin] Producto ID: 18 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:16:28 Europe/Berlin] Producto ID: 19 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 22:16:28 Europe/Berlin] Producto ID: 20 - Ruta de imagen: /proyectoNuevo/img/productos/menu-hamburguesa.png
+[16-Dec-2025 22:16:28 Europe/Berlin] Producto ID: 21 - Ruta de imagen: /proyectoNuevo/img/productos/parlante.png
+[16-Dec-2025 22:16:28 Europe/Berlin] Producto ID: 22 - Ruta de imagen: /proyectoNuevo/img/productos/camara_productos.png
+[16-Dec-2025 22:16:28 Europe/Berlin] Sending JSON response: Array
+(
+    [success] => 1
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [nombre] => buzzer gigante
+                    [descripcion] => auriculares
+                    [precio] => 1233434
+                    [imagen] => /proyectoNuevo/img/productos/6941bdde0b995.png
+                    [stock] => 0
+                )
+
+            [1] => Array
+                (
+                    [id] => 15
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [2] => Array
+                (
+                    [id] => 16
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [3] => Array
+                (
+                    [id] => 17
+                    [nombre] => qaasdasd
+                    [descripcion] => a
+                    [precio] => 1
+                    [imagen] => /proyectoNuevo/img/productos/auriculares_vincha.png
+                    [stock] => 0
+                )
+
+            [4] => Array
+                (
+                    [id] => 18
+                    [nombre] => 2
+                    [descripcion] => 2
+                    [precio] => 2
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [5] => Array
+                (
+                    [id] => 19
+                    [nombre] => 3
+                    [descripcion] => 3
+                    [precio] => 3
+                    [imagen] => /proyectoNuevo/img/productos/parlante.png
+                    [stock] => 0
+                )
+
+            [6] => Array
+                (
+                    [id] => 20
+                    [nombre] => 4
+                    [descripcion] => 4
+                    [precio] => 4
+                    [imagen] => /proyectoNuevo/img/productos/menu-hamburguesa.png
+                    [stock] => 0
+                )
+
+            [7] => Array
+                (
+                    [id] => 21
+                    [nombre] => 5
+                    [descripcion] => 5
+                    [precio] => 5
+                    [imagen] => /proyectoNuevo/img/productos/parlante.png
+                    [stock] => 0
+                )
+
+            [8] => Array
+                (
+                    [id] => 22
+                    [nombre] => 6
+                    [descripcion] => 6
+                    [precio] => 6
+                    [imagen] => /proyectoNuevo/img/productos/camara_productos.png
+                    [stock] => 0
+                )
+
+        )
+
+)
+
